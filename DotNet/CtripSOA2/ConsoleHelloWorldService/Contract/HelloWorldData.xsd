@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by ZhangJin (Home) -->
+<xs:schema xmlns="http://soa.ctrip.com/thingstodo/order/settlementopenapi/v1" xmlns:mstns="http://soa.ctrip.com/thingstodo/order/settlementopenapi/v1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:common="http://soa.ctrip.com/common/types/v1" targetNamespace="http://soa.ctrip.com/thingstodo/order/settlementopenapi/v1" elementFormDefault="qualified" id="OrderData">
+	<xs:import namespace="http://soa.ctrip.com/common/types/v1" schemaLocation="CTripSOACommonTypes_V1.0.0.xsd"/>
+	<xs:complexType name="HelloRequestType">
+		<xs:annotation>
+			<xs:documentation>Hello请求类型</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="OrderId" type="xs:long">
+				<xs:annotation>
+					<xs:documentation>订单号</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="UnitQuantity" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>单位数量</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EndDate" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>结束时间</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Price" type="xs:decimal">
+				<xs:annotation>
+					<xs:documentation>卖价</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="HelloResponseType">
+		<xs:annotation>
+			<xs:documentation>Hello响应类型</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ResponseStatus" type="common:ResponseStatusType">
+				<xs:annotation>
+					<xs:documentation>响应状态</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="IsSuccess" type="xs:boolean">
+				<xs:annotation>
+					<xs:documentation>是否成功</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ErrorCode" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>失败代码</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ErrorMessage" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>错误信息</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+      <xs:element name="Result" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>返回消息</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+	</xs:complexType>
+	<xs:element name="HelloRequest" type="HelloRequestType">
+		<xs:annotation>
+			<xs:documentation>请求</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="HelloResponse" type="HelloResponseType">
+		<xs:annotation>
+			<xs:documentation>响应</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

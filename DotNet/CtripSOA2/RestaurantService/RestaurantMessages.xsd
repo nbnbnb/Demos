@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RestaurantMessages" targetNamespace="http://soa.ctrip.com/framework/soa/sample/message/v1"
+    elementFormDefault="qualified" xmlns="http://soa.ctrip.com/framework/soa/sample/message/v1"
+    xmlns:mstns="http://soa.ctrip.com/framework/soa/sample/message/v1"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:import="http://soa.ctrip.com/framework/soa/sample/data/v1"
+  xmlns:common="http://soa.ctrip.com/common/types/v1">
+  <xs:import id="RestaurantData" schemaLocation="RestaurantData.xsd"
+             namespace="http://soa.ctrip.com/framework/soa/sample/data/v1">
+  </xs:import>
+  <xs:import id="SOACommonTypes" schemaLocation="CTripSOACommonTypes_V1.0.0.xsd"
+             namespace="http://soa.ctrip.com/common/types/v1"/>
+  
+  
+  <xs:element name="GetRestaurantsRequest" type="GetRestaurantsRequestType"/>
+  <xs:complexType name="GetRestaurantsRequestType">
+    <xs:sequence>
+      <xs:element name="Zip" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GetRestaurantsResponse" type="GetRestaurantsResponseType"/>
+  <xs:complexType name="GetRestaurantsResponseType">
+    <xs:sequence>
+      <xs:element name="ResponseStatus" type="common:ResponseStatusType"/>
+      <xs:element name="Restaurants" type="import:RestaurantsList" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AddRestaurantRequest" type="AddRestaurantRequestType"/>
+  <xs:complexType name="AddRestaurantRequestType">
+    <xs:sequence>
+      <xs:element name="Restaurant" type="import:RestaurantInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AddRestaurantResponse" type="AddRestaurantResponseType"/>
+  <xs:complexType name="AddRestaurantResponseType">
+    <xs:sequence>
+      <xs:element name="ResponseStatus" type="common:ResponseStatusType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RateRestaurantRequest" type="RateRestaurantRequestType"/>
+  <xs:complexType name="RateRestaurantRequestType">
+    <xs:sequence>
+      <xs:element name="RestaurantID" type="xs:int" />
+      <xs:element name="Rate" type="import:RatingInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RateRestaurantResponse" type="RateRestaurantResponseType"/>
+  <xs:complexType name="RateRestaurantResponseType">
+    <xs:sequence>
+      <xs:element name="ResponseStatus" type="common:ResponseStatusType" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
+

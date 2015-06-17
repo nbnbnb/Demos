@@ -1,0 +1,440 @@
+2013-08-01 15:37:49,927 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 15:37:51,549 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 15:37:51,549 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 15:37:55,960 [7] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 15:37:56,182 [7] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 15:37:56,256 [9] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 15:38:09,873 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 15:38:10,269 [6] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 15:38:11,313 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 15:38:11,350 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 15:38:16,217 [10] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 15:38:16,429 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 15:38:16,445 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 15:38:16,519 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 15:38:16,909 [4] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 133
+   在 NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 175
+2013-08-01 15:40:18,116 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 15:40:18,464 [6] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 15:40:19,343 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 15:40:19,343 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 15:40:24,306 [10] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 15:40:24,511 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 15:40:24,523 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 15:40:24,593 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 15:40:24,964 [4] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 133
+   在 NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 175
+2013-08-01 15:42:20,747 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 15:42:21,275 [6] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 15:42:22,022 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 15:42:22,022 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 15:42:26,928 [10] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 15:42:27,160 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 15:42:27,172 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 15:42:27,250 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 15:42:27,625 [4] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 133
+   在 NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 175
+2013-08-01 15:55:57,368 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 15:55:57,425 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 15:55:58,371 [15] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 15:55:58,708 [15] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 133
+   在 NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 175
+2013-08-01 15:57:29,585 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 15:57:30,579 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 15:57:30,579 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 15:57:35,992 [8] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 15:57:36,372 [8] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 15:57:36,468 [9] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 15:57:44,372 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 15:57:44,825 [6] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 15:57:45,489 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 15:57:45,489 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 15:57:50,640 [10] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 15:57:50,834 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 15:57:50,853 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 15:57:50,950 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 15:57:51,343 [4] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 133
+   在 NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 175
+2013-08-01 16:01:01,942 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 16:01:02,359 [6] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 16:01:03,247 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 16:01:03,318 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 16:01:08,373 [10] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 16:01:08,650 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:01:08,669 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 16:01:08,773 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:01:09,100 [4] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 133
+   在 NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 175
+2013-08-01 16:07:32,348 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 16:07:32,736 [6] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 16:07:33,642 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 16:07:33,643 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 16:07:38,998 [7] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 16:07:39,188 [7] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:07:39,195 [10] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 16:07:39,278 [7] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:07:39,642 [4] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 133
+   在 NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 175
+2013-08-01 16:09:29,036 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 16:09:29,412 [6] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 16:09:30,017 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 16:09:30,017 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 16:09:35,426 [7] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 16:09:35,622 [7] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:09:35,635 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 16:09:35,710 [7] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:09:36,078 [4] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 133
+   在 NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 175
+2013-08-01 16:22:29,530 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 16:22:30,959 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 16:22:30,959 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 16:22:35,782 [8] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 16:22:36,017 [8] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:22:36,139 [9] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 16:22:48,708 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 16:22:49,144 [6] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 16:22:50,409 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 16:22:50,410 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 16:22:56,149 [7] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 16:22:56,368 [7] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:22:56,379 [9] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 16:22:56,457 [7] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:22:56,806 [4] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 133
+   在 NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 175
+2013-08-01 16:26:45,523 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 16:26:45,908 [6] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 16:26:46,944 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 16:26:46,944 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 16:26:51,915 [7] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 16:26:52,108 [7] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:26:52,120 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 16:26:52,233 [7] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:26:52,568 [4] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 133
+   在 NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 175
+2013-08-01 16:42:50,641 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 16:42:50,993 [6] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 16:42:51,943 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 16:42:51,977 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 16:42:56,976 [7] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 16:42:57,265 [7] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:42:57,282 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 16:42:57,348 [7] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:42:57,720 [4] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 133
+   在 NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 175
+2013-08-01 16:47:24,645 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 16:47:25,032 [6] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 16:47:25,923 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 16:47:25,923 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 16:47:31,184 [10] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 16:47:31,411 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:47:31,427 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 16:47:31,522 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:47:31,885 [4] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 133
+   在 NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 175
+2013-08-01 16:52:21,179 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 16:52:21,591 [6] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 16:52:22,531 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 16:52:22,531 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 16:52:27,635 [10] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 16:52:27,848 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:52:27,856 [7] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 16:52:27,941 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:52:28,295 [4] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 133
+   在 NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 175
+2013-08-01 16:55:22,756 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 16:55:23,439 [6] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 16:55:24,177 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 16:55:24,177 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 16:55:29,098 [10] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 16:55:29,355 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:55:29,375 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 16:55:29,459 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:55:29,803 [4] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 133
+   在 NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 175
+2013-08-01 16:56:03,741 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 16:56:04,278 [6] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 16:56:05,187 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 16:56:05,187 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 16:56:10,449 [10] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 16:56:10,678 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:56:10,690 [7] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 16:56:10,764 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 16:56:11,122 [4] ERROR HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Error while checking for updates: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 NAppUpdate.Framework.UpdateManager.CheckForUpdates(IUpdateSource source, Action`1 callback) 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 133
+   在 NAppUpdate.Framework.UpdateManager.<>c__DisplayClass2.<CheckForUpdateAsync>b__1() 位置 z:\Projects\NAppUpdate\src\NAppUpdate.Framework\UpdateManager.cs:行号 175
+2013-08-01 18:51:55,328 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 18:51:55,680 [9] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 18:51:55,787 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 18:51:55,788 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 18:52:00,174 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 18:52:00,225 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 18:52:00,238 [11] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 18:52:00,305 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 18:52:03,043 [11] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Found an update, starting downloading build #2150
+2013-08-01 18:55:39,996 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 18:55:40,214 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 18:55:40,415 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 18:55:40,415 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 18:55:43,509 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 18:55:43,567 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 18:55:43,577 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 18:55:43,616 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 18:55:44,008 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Found an update, starting downloading build #2150
+2013-08-01 18:56:45,308 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 18:56:45,568 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 18:56:45,749 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 18:56:45,749 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 18:56:48,859 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 18:56:48,914 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 18:56:48,920 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 18:56:48,979 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 18:56:49,399 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Found an update, starting downloading build #2150
+2013-08-01 19:00:54,526 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 19:00:54,786 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 19:01:02,073 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 19:01:02,474 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 19:01:02,475 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 19:01:05,472 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 19:01:05,569 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 19:01:05,575 [4] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 19:01:05,617 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 19:01:05,998 [9] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Found an update, starting downloading build #2150
+2013-08-01 19:32:38,268 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 19:32:38,698 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 19:32:38,699 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 19:32:39,226 [9] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 19:32:42,396 [10] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 19:32:42,461 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 19:32:42,475 [5] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Checking for updates...
+2013-08-01 19:32:42,542 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 19:32:42,996 [5] INFO  HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate [(null)] - Found an update, show notification of build #2150
+2013-08-01 19:43:17,785 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 19:43:18,182 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 19:43:18,182 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 19:43:18,728 [9] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 19:43:21,915 [10] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 19:43:21,961 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 19:43:22,071 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 19:43:38,734 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 19:43:38,941 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 19:43:39,128 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 19:43:39,128 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 19:43:42,398 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 19:43:42,458 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 19:43:55,961 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 19:43:56,148 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 19:43:56,416 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 19:43:56,421 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 19:43:59,759 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 19:43:59,807 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 19:44:20,683 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 19:44:20,945 [8] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 19:44:21,105 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 19:44:21,106 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 19:44:24,385 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 19:44:24,447 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 19:44:24,489 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 19:45:10,793 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 19:45:10,980 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 19:45:19,557 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 19:45:20,009 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 19:45:20,016 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 19:45:22,780 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 19:45:22,839 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 19:45:22,885 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 19:45:51,013 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 19:45:51,623 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 19:45:51,623 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 19:45:51,931 [9] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 19:45:55,130 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 19:45:55,193 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 19:45:55,224 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:23:57,340 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 20:23:57,769 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 20:23:57,770 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 20:23:58,266 [9] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 20:24:01,599 [10] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 20:24:01,664 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:24:01,713 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:24:48,298 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 20:24:48,405 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 20:24:48,767 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 20:24:48,767 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 20:24:52,134 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 20:24:52,198 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:24:52,252 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:25:58,394 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 20:25:58,563 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 20:25:58,851 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 20:25:58,859 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 20:26:02,052 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 20:26:02,103 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:26:02,145 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:26:14,327 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 20:26:14,520 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 20:26:14,824 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 20:26:14,830 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 20:26:17,937 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 20:26:17,986 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:26:26,137 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 20:26:26,197 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 20:26:26,580 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 20:26:26,581 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 20:26:29,748 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 20:26:29,803 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:26:29,850 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:31:51,105 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 20:31:51,353 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 20:31:51,563 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 20:31:51,563 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 20:31:54,689 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 20:31:54,740 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:31:54,782 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:39:25,435 [1] ERROR HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - The C:\Users\admin\Desktop\tmp\nhibernateprofilercrack1\破解后的NHProf\HibernatingRhinos.Profiler.Client.SL.xap file is missing from the root directory.
+2013-08-01 20:39:40,514 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 20:39:40,782 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 20:39:40,972 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 20:39:40,973 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 20:39:44,186 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 20:39:44,236 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:39:44,283 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:47:31,212 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 20:47:31,464 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 20:47:31,638 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 20:47:31,638 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 20:47:34,855 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 20:47:34,912 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:47:35,019 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:48:24,387 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 20:48:24,751 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 20:48:24,753 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 20:48:25,336 [9] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 20:48:28,629 [10] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 20:48:28,704 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 20:48:28,742 [10] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 21:16:13,956 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 21:16:14,705 [9] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 21:16:26,582 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 21:16:26,835 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-01 21:16:27,066 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 21:16:27,066 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 21:16:30,375 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 21:16:30,436 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 21:16:30,484 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 22:00:19,697 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 22:00:20,359 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 22:00:20,359 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 22:00:45,908 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 22:00:46,536 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 22:00:46,537 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 22:02:07,977 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-01 22:02:08,509 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-01 22:02:08,509 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-01 22:02:11,654 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-01 22:02:11,714 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-01 22:02:11,821 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-02 12:36:48,137 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-02 12:36:48,448 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-02 12:36:48,754 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-02 12:36:48,762 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-02 12:36:52,793 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-02 12:36:52,849 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-02 12:36:52,897 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-02 13:56:55,779 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-08-02 13:56:55,944 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-08-02 13:56:56,253 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-08-02 13:56:56,253 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-08-02 13:56:59,668 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-08-02 13:56:59,726 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-08-02 13:56:59,771 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-12-16 20:28:57,085 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-12-16 20:28:58,092 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-12-16 20:28:58,094 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-12-16 20:29:02,579 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-12-16 20:29:02,728 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-12-16 20:29:02,735 [5] WARN  HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Could not process request: /
+System.InvalidProgramException: 公共语言运行时检测到无效的程序。
+   在 HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate.CheckForUpdates(Boolean forceAutoUpdate)
+   在 HibernatingRhinos.Profiler.Client.Host.OutOfProcessClientService.<StartWithOutOfProcessListener>b__a()
+   在 HibernatingRhinos.Profiler.Client.Services.LicensingService.OnOnLicenseValidated()
+   在 HibernatingRhinos.Profiler.Client.Services.LicensingService.ConfirmLicense()
+   在 HibernatingRhinos.Profiler.Client.Host.ClientService.RelayToBridge(IBackendRequest request)
+   在 HibernatingRhinos.Profiler.Client.Host.OutOfProcessClientService.<HandleRequests>b__b()
+2013-12-16 20:30:14,009 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-12-16 20:30:14,287 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-12-16 20:30:14,947 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-12-16 20:30:14,949 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-12-16 20:30:19,961 [4] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-12-16 20:30:20,097 [4] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-12-16 20:30:20,105 [4] WARN  HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Could not process request: /
+System.InvalidProgramException: 公共语言运行时检测到无效的程序。
+   在 HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate.CheckForUpdates(Boolean forceAutoUpdate)
+   在 HibernatingRhinos.Profiler.Client.Host.OutOfProcessClientService.<StartWithOutOfProcessListener>b__a()
+   在 HibernatingRhinos.Profiler.Client.Services.LicensingService.OnOnLicenseValidated()
+   在 HibernatingRhinos.Profiler.Client.Services.LicensingService.ConfirmLicense()
+   在 HibernatingRhinos.Profiler.Client.Host.ClientService.RelayToBridge(IBackendRequest request)
+   在 HibernatingRhinos.Profiler.Client.Host.OutOfProcessClientService.<HandleRequests>b__b()
+2013-12-16 20:31:51,266 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-12-16 20:31:52,001 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-12-16 20:31:52,012 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-12-16 20:31:57,302 [5] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-12-16 20:31:57,390 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-12-16 20:31:57,397 [5] WARN  HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Could not process request: /
+System.InvalidProgramException: 公共语言运行时检测到无效的程序。
+   在 HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate.CheckForUpdates(Boolean forceAutoUpdate)
+   在 HibernatingRhinos.Profiler.Client.Host.OutOfProcessClientService.<StartWithOutOfProcessListener>b__a()
+   在 HibernatingRhinos.Profiler.Client.Services.LicensingService.OnOnLicenseValidated()
+   在 HibernatingRhinos.Profiler.Client.Services.LicensingService.ConfirmLicense()
+   在 HibernatingRhinos.Profiler.Client.Host.ClientService.RelayToBridge(IBackendRequest request)
+   在 HibernatingRhinos.Profiler.Client.Host.OutOfProcessClientService.<HandleRequests>b__b()
+2013-12-16 20:33:59,372 [5] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-12-16 20:33:59,372 [5] WARN  HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Could not process request: /
+System.InvalidProgramException: 公共语言运行时检测到无效的程序。
+   在 HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate.CheckForUpdates(Boolean forceAutoUpdate)
+   在 HibernatingRhinos.Profiler.Client.Host.OutOfProcessClientService.<StartWithOutOfProcessListener>b__a()
+   在 HibernatingRhinos.Profiler.Client.Services.LicensingService.OnOnLicenseValidated()
+   在 HibernatingRhinos.Profiler.Client.Services.LicensingService.ConfirmLicense()
+   在 HibernatingRhinos.Profiler.Client.Host.ClientService.RelayToBridge(IBackendRequest request)
+   在 HibernatingRhinos.Profiler.Client.Host.OutOfProcessClientService.<HandleRequests>b__b()
+2013-12-16 21:52:17,038 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-12-16 21:52:19,345 [10] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-12-16 21:52:20,068 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-12-16 21:52:20,076 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-12-16 21:52:34,511 [7] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-12-16 21:52:35,091 [7] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-12-16 21:52:35,282 [7] WARN  HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Could not process request: /
+System.InvalidProgramException: 公共语言运行时检测到无效的程序。
+   在 HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate.CheckForUpdates(Boolean forceAutoUpdate)
+   在 HibernatingRhinos.Profiler.Client.Host.OutOfProcessClientService.<StartWithOutOfProcessListener>b__a()
+   在 HibernatingRhinos.Profiler.Client.Services.LicensingService.OnOnLicenseValidated()
+   在 HibernatingRhinos.Profiler.Client.Services.LicensingService.ConfirmLicense()
+   在 HibernatingRhinos.Profiler.Client.Host.ClientService.RelayToBridge(IBackendRequest request)
+   在 HibernatingRhinos.Profiler.Client.Host.OutOfProcessClientService.<HandleRequests>b__b()
+2013-12-16 22:01:03,538 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Profiler initialized. Build: 2149
+2013-12-16 22:01:03,929 [7] INFO  HibernatingRhinos.Profiler.Client.Host.SilverlightLauncher [(null)] - OOB application was in already installed state. Trying to recover by uninstalling it.
+2013-12-16 22:01:04,537 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Attempt to start HTTP listener
+2013-12-16 22:01:04,583 [1] DEBUG HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - HTTP listener started successfully
+2013-12-16 22:01:10,014 [4] WARN  Rhino.Licensing.AbstractLicenseValidator [(null)] - License expiration date is 05/04/2013 00:00:00
+2013-12-16 22:01:10,109 [4] DEBUG Rhino.Licensing.AbstractLicenseValidator [(null)] - License accepted for NHibernate Profiler
+2013-12-16 22:01:10,115 [4] WARN  HibernatingRhinos.Profiler.Client.Host.ClientService [(null)] - Could not process request: /
+System.InvalidProgramException: 公共语言运行时检测到无效的程序。
+   在 HibernatingRhinos.Profiler.Client.Infrastructure.AutoUpdate.ProfilerAutoUpdate.CheckForUpdates(Boolean forceAutoUpdate)
+   在 HibernatingRhinos.Profiler.Client.Host.OutOfProcessClientService.<StartWithOutOfProcessListener>b__a()
+   在 HibernatingRhinos.Profiler.Client.Services.LicensingService.OnOnLicenseValidated()
+   在 HibernatingRhinos.Profiler.Client.Services.LicensingService.ConfirmLicense()
+   在 HibernatingRhinos.Profiler.Client.Host.ClientService.RelayToBridge(IBackendRequest request)
+   在 HibernatingRhinos.Profiler.Client.Host.OutOfProcessClientService.<HandleRequests>b__b()

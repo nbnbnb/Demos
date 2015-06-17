@@ -1,0 +1,50 @@
+﻿session.Get 和 session.Load 的区别
+	使用Get时，将会根据Id从数据库中检索数据，如果没有指定的Id,则返回Null
+	使用Load时，不会从数据库中检索数据，仅仅只是创建一个代理对象【仅仅通过传递的Id填充了主键字段】
+	当我们访问此代理对象的某个属性时，才会从数据库中检索数据，这也正是延迟加载的由来;如果我们指定的Id
+	不存在数据库中，当读取字段属性时，将会抛出异常
+
+	使用Get的场景：获取或操作数据
+	使用Load的场景：不需要访问实体的具体信息
+
+	 例如以下场景：需要更新产品的类别，但是不获取类别的具体信息，仅仅只是创建一个代理的类别对象
+     var product = session.Get<Product>(productId); 
+     product.Category = session.Load<Category>(newCategoryId); 
+
+	使用ToFuture()进行多结果集的查询
+	当此Session中的第一个查询语句发出时，将会执行批量查询。【带ToFuture扩展方法】
+
+	使用Fetch方法，进行显式的子集加载【转化为SQL 就是 left outer join】【lazy 特性不起作用】
+	注意：此处是 left outer join ,而不是 left join
+	HQL 写法
+		select p from Person as p left outer join fetch p.Address as a	
+
+	使用ExecuteUpdate()方法进行大批量数据的更新
+		var hql="update Procude d set p.UnitPrice = 1.1 * p.UnitPrice"
+		session.CreateQuery(hql).ExecuteUpdate();
+
+	lazy属性设置，双 foreach 子记录读取的影响
+
+	lazy=false
+		2013-12-17 00:00:48,294 - select star0_.Id as Id1_, star0_.Name as Name1_, star0_.Mass as Mass1_, star0_.Class as Class1_, star0_.Color as Color1_ from Star star0_
+		2013-12-17 00:00:48,410 - SELECT planets0_.StarId as StarId1_, planets0_.Id as Id1_, planets0_.Id as Id0_0_, planets0_.Name as Name0_0_, planets0_.IsHabitable as IsHabita3_0_0_, planets0_.StarId as StarId0_0_ FROM Planet planets0_ WHERE planets0_.StarId=@p0;@p0 = 180de45a-7ccc-4a20-ab69-a296015c9e5d [Type: Guid (0)]
+		2013-12-17 00:00:48,463 - SELECT planets0_.StarId as StarId1_, planets0_.Id as Id1_, planets0_.Id as Id0_0_, planets0_.Name as Name0_0_, planets0_.IsHabitable as IsHabita3_0_0_, planets0_.StarId as StarId0_0_ FROM Planet planets0_ WHERE planets0_.StarId=@p0;@p0 = b2bc4578-8358-4389-a73b-a296015c9e5d [Type: Guid (0)]
+		2013-12-17 00:00:48,474 - SELECT planets0_.StarId as StarId1_, planets0_.Id as Id1_, planets0_.Id as Id0_0_, planets0_.Name as Name0_0_, planets0_.IsHabitable as IsHabita3_0_0_, planets0_.StarId as StarId0_0_ FROM Planet planets0_ WHERE planets0_.StarId=@p0;@p0 = 936a1111-1f49-42a4-a204-a296015c9e5d [Type: Guid (0)]
+		2013-12-17 00:00:48,484 - SELECT planets0_.StarId as StarId1_, planets0_.Id as Id1_, planets0_.Id as Id0_0_, planets0_.Name as Name0_0_, planets0_.IsHabitable as IsHabita3_0_0_, planets0_.StarId as StarId0_0_ FROM Planet planets0_ WHERE planets0_.StarId=@p0;@p0 = a7162705-e9d1-44bc-9cf4-a296015c9e4d [Type: Guid (0)]
+	lazy=true
+		2013-12-17 00:02:20,508 - select star0_.Id as Id1_, star0_.Name as Name1_, star0_.Mass as Mass1_, star0_.Class as Class1_, star0_.Color as Color1_ from Star star0_
+		2013-12-17 00:02:20,631 - SELECT planets0_.StarId as StarId1_, planets0_.Id as Id1_, planets0_.Id as Id0_0_, planets0_.Name as Name0_0_, planets0_.IsHabitable as IsHabita3_0_0_, planets0_.StarId as StarId0_0_ FROM Planet planets0_ WHERE planets0_.StarId=@p0;@p0 = a7162705-e9d1-44bc-9cf4-a296015c9e4d [Type: Guid (0)]
+		2013-12-17 00:02:20,679 - SELECT planets0_.StarId as StarId1_, planets0_.Id as Id1_, planets0_.Id as Id0_0_, planets0_.Name as Name0_0_, planets0_.IsHabitable as IsHabita3_0_0_, planets0_.StarId as StarId0_0_ FROM Planet planets0_ WHERE planets0_.StarId=@p0;@p0 = 936a1111-1f49-42a4-a204-a296015c9e5d [Type: Guid (0)]
+		2013-12-17 00:02:20,689 - SELECT planets0_.StarId as StarId1_, planets0_.Id as Id1_, planets0_.Id as Id0_0_, planets0_.Name as Name0_0_, planets0_.IsHabitable as IsHabita3_0_0_, planets0_.StarId as StarId0_0_ FROM Planet planets0_ WHERE planets0_.StarId=@p0;@p0 = b2bc4578-8358-4389-a73b-a296015c9e5d [Type: Guid (0)]
+		2013-12-17 00:02:20,698 - SELECT planets0_.StarId as StarId1_, planets0_.Id as Id1_, planets0_.Id as Id0_0_, planets0_.Name as Name0_0_, planets0_.IsHabitable as IsHabita3_0_0_, planets0_.StarId as StarId0_0_ FROM Planet planets0_ WHERE planets0_.StarId=@p0;@p0 = 180de45a-7ccc-4a20-ab69-a296015c9e5d [Type: Guid (0)]
+
+	读取父集合记录数+ToList()
+	lazy=false
+		2013-12-17 00:04:32,061 - select star0_.Id as Id1_, star0_.Name as Name1_, star0_.Mass as Mass1_, star0_.Class as Class1_, star0_.Color as Color1_ from Star star0_
+		2013-12-17 00:04:32,204 - SELECT planets0_.StarId as StarId1_, planets0_.Id as Id1_, planets0_.Id as Id0_0_, planets0_.Name as Name0_0_, planets0_.IsHabitable as IsHabita3_0_0_, planets0_.StarId as StarId0_0_ FROM Planet planets0_ WHERE planets0_.StarId=@p0;@p0 = 180de45a-7ccc-4a20-ab69-a296015c9e5d [Type: Guid (0)]
+		2013-12-17 00:04:32,252 - SELECT planets0_.StarId as StarId1_, planets0_.Id as Id1_, planets0_.Id as Id0_0_, planets0_.Name as Name0_0_, planets0_.IsHabitable as IsHabita3_0_0_, planets0_.StarId as StarId0_0_ FROM Planet planets0_ WHERE planets0_.StarId=@p0;@p0 = b2bc4578-8358-4389-a73b-a296015c9e5d [Type: Guid (0)]
+		2013-12-17 00:04:32,262 - SELECT planets0_.StarId as StarId1_, planets0_.Id as Id1_, planets0_.Id as Id0_0_, planets0_.Name as Name0_0_, planets0_.IsHabitable as IsHabita3_0_0_, planets0_.StarId as StarId0_0_ FROM Planet planets0_ WHERE planets0_.StarId=@p0;@p0 = 936a1111-1f49-42a4-a204-a296015c9e5d [Type: Guid (0)]
+		2013-12-17 00:04:32,273 - SELECT planets0_.StarId as StarId1_, planets0_.Id as Id1_, planets0_.Id as Id0_0_, planets0_.Name as Name0_0_, planets0_.IsHabitable as IsHabita3_0_0_, planets0_.StarId as StarId0_0_ FROM Planet planets0_ WHERE planets0_.StarId=@p0;@p0 = a7162705-e9d1-44bc-9cf4-a296015c9e4d [Type: Guid (0)]
+	laze=true
+		2013-12-17 00:07:08,789 - select star0_.Id as Id1_, star0_.Name as Name1_, star0_.Mass as Mass1_, star0_.Class as Class1_, star0_.Color as Color1_ from Star star0_
+

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoqDemo.Domain", "MoqDemo.Domain\MoqDemo.Domain.csproj", "{26D23D1C-F110-4A25-B8B3-344064D65DDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoqDemo.UnitTest", "MoqDemo.UnitTest\MoqDemo.UnitTest.csproj", "{62231CD6-FF45-44A6-8E14-59D414CE52A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoqDemo.CUI", "MoqDemo.CUI\MoqDemo.CUI.csproj", "{390011F4-0E69-48CC-A2FD-D87EEC94F29D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26D23D1C-F110-4A25-B8B3-344064D65DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D23D1C-F110-4A25-B8B3-344064D65DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D23D1C-F110-4A25-B8B3-344064D65DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D23D1C-F110-4A25-B8B3-344064D65DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390011F4-0E69-48CC-A2FD-D87EEC94F29D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390011F4-0E69-48CC-A2FD-D87EEC94F29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390011F4-0E69-48CC-A2FD-D87EEC94F29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390011F4-0E69-48CC-A2FD-D87EEC94F29D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62231CD6-FF45-44A6-8E14-59D414CE52A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62231CD6-FF45-44A6-8E14-59D414CE52A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62231CD6-FF45-44A6-8E14-59D414CE52A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62231CD6-FF45-44A6-8E14-59D414CE52A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

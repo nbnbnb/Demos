@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@using MvcAppModelValidation.Models
+
+@model IEnumerable<ModelValidator>
+
+<h2>Index</h2>
+
+@{
+    Contact contact = new Contact();
+}
+
+<table>
+    <tr>
+        <th>ModelValidator</th>
+        <th>Message</th>
+    </tr>
+    @foreach (var validator in Model)
+    {
+        ModelValidationResult[] results =
+            validator.Validate(contact).ToArray();
+        string firstMessage = (results.Any() ? results.First().Message : "N/A");
+        <tr>
+            <td>@validator.GetType().Name</td>
+            <td>@firstMessage</td>
+        </tr>
+
+        for (int i = 1; i < results.Length; i++)
+        {
+            <tr>
+                <td>@results[i].Message</td>
+            </tr>
+        }
+    }
+</table>

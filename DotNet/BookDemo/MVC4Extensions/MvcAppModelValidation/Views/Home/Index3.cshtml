@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Index3";
+}
+
+@model MvcAppModelValidation.Models.Contact
+
+<h2>Index3</h2>
+
+@if (string.Compare(Request.HttpMethod, "POST", true) != 0)
+{
+    using (Html.BeginForm())
+    {
+        @Html.EditorForModel()
+        @Html.EditorFor(m => m.Address)
+        <input type="submit" value="保存" />
+    }
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <td>Key</td>
+                <td>Error</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (string key in ViewData.ModelState.Keys)
+            {
+                ModelError[] errors = ViewData.ModelState[key].Errors.ToArray();
+                string firstError = errors.Any() ? errors[0].ErrorMessage : "N/A";
+                <tr>
+                    <td rowspan="@errors.Length">
+                        @key
+                    </td>
+                    <td>
+                        @firstError
+                    </td>
+                </tr>
+                for (int i = 1; i < errors.Length; i++)
+                {
+                    <tr>
+                        <td>@errors[i].ErrorMessage</td>
+                    </tr>
+                }    
+            }
+        </tbody>
+    </table>
+}

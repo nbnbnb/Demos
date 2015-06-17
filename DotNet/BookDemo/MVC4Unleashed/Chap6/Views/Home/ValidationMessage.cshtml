@@ -1,0 +1,45 @@
+﻿@{
+    Layout = null;
+}
+@using Chap6.Models
+
+@model Contact
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <style>
+        .field-validation-error{
+            color:red;
+        }
+    </style>
+    <title>ValidationMessage</title>
+</head>
+<body>
+    <ul>
+        <li>
+            @Html.ValidationMessage("Name")
+        </li>
+        <li>
+            @Html.ValidationMessage("PhoneNo")
+        </li>
+        <li>
+            @Html.ValidationMessage("EmailAddress")
+        </li>
+        <li>
+            @Html.ValidationMessage("Address.Province")
+        </li>
+        <li>
+            @Html.ValidationMessage("Address.City")
+        </li>
+        <li>
+            @Html.ValidationMessage("Address.District")
+        </li>
+        <li>
+            @Html.ValidationMessage("Address.Street")
+        </li>
+    </ul>
+</body>
+</html>

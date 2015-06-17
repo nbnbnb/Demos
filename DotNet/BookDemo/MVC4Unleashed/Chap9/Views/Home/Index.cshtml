@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null;
+}
+
+@using System.Web.Http.Controllers
+
+@model IEnumerable<HttpParameterBinding>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>HttpParameterBindings</title>
+</head>
+<body>
+    <table>
+       <tr>
+           <th>Parameter</th>
+           <th>HttpParameterBinding</th>
+       </tr>
+        @foreach (var parameterBinding in Model)
+        {
+            <tr>
+                <td>@parameterBinding.Descriptor.ParameterName</td>
+                <td>@parameterBinding.GetType().Name</td>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

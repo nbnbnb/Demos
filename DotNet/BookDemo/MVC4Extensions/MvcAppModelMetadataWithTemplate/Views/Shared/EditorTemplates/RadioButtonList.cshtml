@@ -1,0 +1,8 @@
+﻿@model string
+
+@using MVC4.Extensions.ModelExtensions
+
+@{
+    string listName = (string)ViewData.ModelMetadata.AdditionalValues["ListName"];
+    @Html.RadioButtonList("", listName, Model)
+}

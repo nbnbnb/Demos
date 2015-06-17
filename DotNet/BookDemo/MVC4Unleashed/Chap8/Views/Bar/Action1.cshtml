@@ -1,0 +1,21 @@
+﻿@{
+    Layout = null;
+}
+
+@using Chap8.Models
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Bar - Action1</title>
+</head>
+<body>
+    <div>
+        <div>当前View类型:@this.GetType().AssemblyQualifiedName</div>
+        <div>当前加载的View程序集:</div>
+        @Html.ListViewAssemblies()
+    </div>
+</body>
+</html>

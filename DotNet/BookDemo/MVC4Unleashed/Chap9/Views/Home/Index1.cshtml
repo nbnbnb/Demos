@@ -1,0 +1,118 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="~/Scripts/jquery-2.1.1.js"></script>
+    <script src="~/Scripts/knockout-3.1.0.debug.js"></script>
+    <title>联系人管理</title>
+</head>
+<body>
+    <div id="contacts">
+        <table>
+            <tr>
+                <th>姓名</th>
+                <th>电话号码</th>
+                <th>Email地址</th>
+                <th></th>
+            </tr>
+            <tbody>
+                <!-- ko foreach: allContacts -->
+                <tr>
+                    <td data-bind="text: Name"></td>
+                    <td data-bind="text: PhoneNo"></td>
+                    <td>
+                        <input class="textbox long" type="text" data-bind="value: EmailAddress" />
+                    </td>
+                    <td>
+                        <a href="#" data-bind="click: $root.updateContact">修改</a>
+                        <a href="#" data-bind="click: $root.deleteContact">删除</a>
+                    </td>
+                </tr>
+                <!-- /ko -->
+                <tr data-bind="with: addedContact">
+                    <td>
+                        <input type="text" class="textbox" data-bind="value: Name" />
+                    </td>
+                    <td>
+                        <input type="text" class="textbox" data-bind="value: PhoneNo" />
+                    </td>
+                    <td>
+                        <input type="text" class=" textbox long" data-bind="value: EmailAddress" />
+                    </td>
+                    <td>
+                        <a href="#" data-bind="click: $root.addContact">添加</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript">
+        function ContentViewModel() {
+            var self = this;
+            self.allContacts = ko.observableArray();
+            self.addedContact = ko.observable();
+
+            self.loadContacts = function () {
+                $.get("/api/contacts/", null, function (data) {
+                    self.allContacts(data);
+                    var emptyContact = {
+                        Id: "",
+                        Name: "",
+                        PhoneNo: "",
+                        EmailAddress: ""
+                    };
+                    self.addedContact(emptyContact);
+                });
+            };
+
+            self.addContact = function (data) {
+                if (!self.validate(data)) {
+                    return;
+                }
+                $.ajax({
+                    url: "/api/contacts",
+                    data: self.addedContact(),
+                    type: "PUT",
+                    success: self.loadContacts
+                });
+            };
+
+            self.updateContact = function (data) {
+                $.ajax({
+                    url: "/api/contacts",
+                    data: data,
+                    type: "POST",
+                    success: self.loadContacts
+                });
+            };
+
+            self.deleteContact = function (data) {
+                $.ajax({
+                    url: "/api/contacts/" + data.Id,
+                    type: "DELETE",
+                    success: self.loadContacts
+                });
+            };
+
+            self.validate = function (data) {
+                if (data.Name && data.PhoneNo && data.EmailAddress) {
+                    return true;
+                }
+                alert("请输入完整联系人信息");
+                return false;
+            };
+
+            self.loadContacts();
+        }
+
+        ko.applyBindings(new ContentViewModel());
+    </script>
+
+</body>
+</html>

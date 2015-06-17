@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "ModelStateBind";
+}
+
+@model MvcAppModelBind.Models.Contact
+
+<h2>ModelStateBind</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.EditorForModel();
+    @Html.EditorFor(m => m.Address);
+    <input type="submit" value="保存" />
+}

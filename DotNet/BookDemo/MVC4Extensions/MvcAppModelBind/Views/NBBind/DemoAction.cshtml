@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "DemoAction";
+}
+
+@model IDictionary<string, object>
+
+<h2>DemoAction</h2>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Value</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.Key
+            </td>
+            <td>
+                @item.Value
+            </td>
+        </tr>
+    }
+</table>

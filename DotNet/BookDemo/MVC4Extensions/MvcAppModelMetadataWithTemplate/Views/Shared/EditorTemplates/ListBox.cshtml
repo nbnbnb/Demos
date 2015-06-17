@@ -1,0 +1,13 @@
+﻿@model IEnumerable<string>
+
+@using MVC4.Extensions.ModelExtensions
+@using MvcAppModelMetadataWithTemplate.Models
+
+@{
+    string listName = (string)ViewData.ModelMetadata.AdditionalValues["ListName"];
+
+    // 使用下面的方法也可以获得附加的元数据信息
+    // string listName = (string)ModelMetadataProviders.Current.GetMetadataForProperty(() => null, typeof(Employee), "Departments").AdditionalValues["ListName"];
+
+    @Html.ListBox("", listName, Model)
+}

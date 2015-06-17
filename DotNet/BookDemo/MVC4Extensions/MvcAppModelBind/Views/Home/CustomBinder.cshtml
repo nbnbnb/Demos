@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "CustomBinder";
+}
+@model ActionDescriptor
+<h2>CustomBinder</h2>
+
+<table>
+    <tr><th>Parameter</th><th>ModelBinder</th></tr>
+    @foreach (var parameter in Model.GetParameters())
+    {
+        string binderType = "N/A";
+        IModelBinder binder = parameter.BindingInfo.Binder ?? ModelBinders.Binders.GetBinder(parameter.ParameterType);
+        if (null != binder)
+        {
+            binderType = binder.GetType().Name;
+        }
+        <tr><td>@parameter.ParameterName</td><td>@binderType</td></tr>
+    }
+</table>

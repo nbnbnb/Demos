@@ -1,0 +1,28 @@
+﻿@{
+    Layout = null;
+}
+@using Chap6.Models
+
+@model Person2
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <script src="~/Scripts/jquery-1.8.0.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/agerange.js"></script>
+
+    <title>编辑个人信息</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        @Html.EditorForModel()
+        <input type="submit" value="保存" />
+    }
+</body>
+</html>

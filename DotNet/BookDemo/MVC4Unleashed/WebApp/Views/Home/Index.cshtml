@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+}
+@using WebApp.Models
+@model UserInfo
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h3> Hello, ASP.NET MVC4! </h3>
+
+        @using (Html.BeginForm())
+        {
+            
+            ModelMetadata metadata=ViewData.ModelMetadata;
+  
+            @Html.EditorForModel()
+            @Html.EditorFor(m=>m.UserAddress)
+
+            <input type="submit" value="Submit" />
+        }
+
+        @Html.ValidationSummary()
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿@{
+    Layout = null;
+}
+
+@using Chap8.Models
+
+@inherits LocalizableViewPage<object>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MyIoc</title>
+</head>
+<body>
+    <div>
+        <h2>@ResourceReader.GetString("HelloWorld")</h2>
+    </div>
+</body>
+</html>

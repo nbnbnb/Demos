@@ -1,0 +1,9 @@
+﻿@using Chap4.Models
+@model string
+
+@{
+    string listName =
+        (string)ViewData.ModelMetadata.AdditionalValues["ListName"];
+
+        @Html.RadioButtonList("", listName, Model)
+}

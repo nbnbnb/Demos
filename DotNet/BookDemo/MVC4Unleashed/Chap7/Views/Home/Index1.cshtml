@@ -1,0 +1,30 @@
+﻿@{
+    Layout = null;
+}
+
+@using Chap7.Models
+@model IEnumerable<ActionDescriptor>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ActionInvoker</title>
+</head>
+<body>
+   <table>
+      <tr>
+          <th>ActionName</th>
+          <th>ActionDescriptor</th>
+      </tr>
+       @foreach (ActionDescriptor descriptor in Model)
+       {
+           <tr>
+               <td>@descriptor.ActionName</td>
+               <td>@descriptor.GetType().Name</td>
+           </tr>
+       }
+   </table>
+</body>
+</html>

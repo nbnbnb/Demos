@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@{
+    // 在调用 HtmlHelper 方法时
+    // 将会创建对象的 ModelMetadata
+    // 然后根据 ModelMetadata 选择模板 View
+    @Html.EditorForModel()
+    //@Html.DisplayForModel()
+}

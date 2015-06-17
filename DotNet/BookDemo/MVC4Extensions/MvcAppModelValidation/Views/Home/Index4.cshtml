@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Index4";
+}
+
+@model MvcAppModelValidation.Models.Contact
+
+<h2>Index4</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.EditorForModel()
+    @Html.EditorFor(m => m.Address)
+    <input type="submit" value="保存" />
+}

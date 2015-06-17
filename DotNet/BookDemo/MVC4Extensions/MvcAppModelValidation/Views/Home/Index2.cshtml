@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Index2";
+}
+
+@model IEnumerable<ModelValidationResult>
+
+<h2>Index2</h2>
+
+
+<table>
+    <tr>
+        <th>Member</th>
+        <th>Message</th>
+    </tr>
+    @foreach (ModelValidationResult result in Model)
+    {
+        string propertyName = string.IsNullOrEmpty(result.MemberName) ? "N/A" : result.MemberName;
+        <tr>
+            <td>@propertyName</td>
+            <td>@result.Message</td>
+        </tr>
+    }
+</table>

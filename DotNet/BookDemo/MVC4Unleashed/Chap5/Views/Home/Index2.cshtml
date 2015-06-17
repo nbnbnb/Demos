@@ -1,0 +1,19 @@
+﻿@{
+    Layout = null;
+}
+
+@using Chap5.Models
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ChildActionValueProvider 的数据结构</title>
+</head>
+<body>
+    <div>
+        @Html.Action("DataOfChildActionValueProvider", new { Foo = 123, Bar = 456, Baz = 789 })
+    </div>
+</body>
+</html>

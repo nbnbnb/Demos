@@ -1,0 +1,17 @@
+﻿@using System.Collections
+@using Chap8.Models
+
+
+@model Contact
+
+@{
+    ViewBag.Title = Model.Name;
+}
+
+@using (Html.BeginForm())
+{
+    @Html.EditorForModel()
+    <input type="submit" value="保存" />
+}
+
+

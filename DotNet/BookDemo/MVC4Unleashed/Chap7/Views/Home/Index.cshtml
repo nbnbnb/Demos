@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null;
+}
+
+@using Chap7.Models
+@model IEnumerable<Filter>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Filters</title>
+</head>
+<body>
+   <table>
+        <tr>
+            <th>Instance</th>
+            <th>Order</th>
+            <th>Scope</th>
+        </tr>
+       @foreach (Filter filter in Model)
+       {
+           <tr>
+               <td>@filter.Instance.GetType().Name</td>
+               <td>@filter.Order</td>
+               <td>@filter.Scope</td>
+           </tr>
+       }
+   </table>
+</body>
+</html>

@@ -1,0 +1,63 @@
+﻿@{
+    Layout = null;
+}
+
+@using Chap5.Models
+@model NameValueCollectionValueProvider
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>指定前缀的 Key</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2">
+                first
+            </th>
+        </tr>
+        @foreach (var item in Model.GetKeysFromPrefix("first"))
+        {
+            <tr>
+                <td>
+                    @item.Key
+                </td>
+                <td>
+                    @item.Value
+                </td>
+            </tr>
+        }
+        <tr>
+            <th colspan="2">first[0]</th>
+        </tr>
+        @foreach (var item in Model.GetKeysFromPrefix("first[0]"))
+        {
+            <tr>
+                <td>
+                    @item.Key
+                </td>
+                <td>
+                    @item.Value
+                </td>
+            </tr>
+        }
+        <tr>
+            <th colspan="2">first[1]</th>
+        </tr>
+        @foreach (var item in Model.GetKeysFromPrefix("first[1]"))
+        {
+            <tr>
+                <td>
+                    @item.Key
+                </td>
+                <td>
+                    @item.Value
+                </td>
+            </tr>
+        }
+    </table>
+</body>
+</html>

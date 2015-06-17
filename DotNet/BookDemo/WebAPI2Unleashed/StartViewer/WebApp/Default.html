@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <title>联系人管理器</title>
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap theme -->
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="/Bootstrap/js/html5shiv.min.js"></script>
+      <script src="/Bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <div class="container">
+        <div id="content">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>姓名</th>
+                        <th>联系电话</th>
+                        <th>电子邮件</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach:contacts">
+                    <tr>
+                        <td data-bind="text:Name"></td>
+                        <td data-bind="text:PhoneNo"></td>
+                        <td data-bind="text:EmailAddress"></td>
+                        <td>
+                            <a href="#" data-bind="click:$root.showDialog">修改</a>
+                            <a href="#" data-bind="click:$root.delete">删除</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="#" class="btn btn-primary" data-bind="click:showDialog">添加新联系人</a>
+        </div>
+
+        <div class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dissmiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">编辑联系人信息</h4>
+                    </div>
+                    <div class="modal-body form-horizontal" data-bind="with:contact">
+                        <div class="form-group">
+                            <label for="name" class="col-sm-2 control-label">姓名：</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="name" placeholder="姓名" data-bind="value:Name" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phoneNo" class="col-sm-2 control-label">联系电话：</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="phoneNo" placeholder="联系电话" data-bind="value:PhoneNo" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="emailAddress" class="col-sm-2 control-label">电子邮箱：</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="emailAddress" placeholder="电子邮箱" data-bind="value:EmailAddress" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="address" class="col-sm-2 control-label">地址：</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="address" placeholder="地址" data-bind="value:Address" />
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="btn btn-default" data-dissmiss="modal">关闭</a>
+                            <a href="#" class="btn btn-primary" data-bind="click:save">保存</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="/js/Holder.js"></script>
+    <script src="/js/knockout-3.2.0.js"></script>
+    <script src="/js/viewmodel.js"></script>
+
+</body>
+</html>

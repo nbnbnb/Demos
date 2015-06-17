@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-configuration xmlns="urn:nhibernate-configuration-2.2">
+  <session-factory name="Sample">
+    <property name="dialect">
+      NHibernate.Dialect.MsSql2008Dialect
+    </property>
+    <property name="connection.connection_string">
+      server=.\SQLEXPRESS;database=LinqToNHibernateSample;
+      integrated security=true
+    </property>
+  </session-factory>
+</hibernate-configuration>

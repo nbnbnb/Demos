@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjectDemo.Domain", "NinjectDemo.Domain\NinjectDemo.Domain.csproj", "{7CE92398-9AD3-4B09-9DA6-12BB80404011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjectDemo.CUI", "NinjectDemo.CUI\NinjectDemo.CUI.csproj", "{5F4FC9C6-A875-4E7D-912F-DA5BD8E7652D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F4FC9C6-A875-4E7D-912F-DA5BD8E7652D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4FC9C6-A875-4E7D-912F-DA5BD8E7652D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4FC9C6-A875-4E7D-912F-DA5BD8E7652D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4FC9C6-A875-4E7D-912F-DA5BD8E7652D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE92398-9AD3-4B09-9DA6-12BB80404011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE92398-9AD3-4B09-9DA6-12BB80404011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE92398-9AD3-4B09-9DA6-12BB80404011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE92398-9AD3-4B09-9DA6-12BB80404011}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

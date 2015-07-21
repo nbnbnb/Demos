@@ -16,7 +16,7 @@ namespace ASPPatterns.Chap7.IdentityMap.Repository
         public Employee FindBy(Guid Id)
         {
             Employee employee = _employeeMap.GetById(Id);
-            if (employee == null)
+            if (employee == null)          
             {
                 employee = DatastoreFindBy(Id);
                 if (employee != null)

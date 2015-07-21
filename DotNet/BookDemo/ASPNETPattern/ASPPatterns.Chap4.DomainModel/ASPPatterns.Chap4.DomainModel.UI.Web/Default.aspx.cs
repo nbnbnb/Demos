@@ -23,7 +23,7 @@ namespace ASPPatterns.Chap4.DomainModel.UI.Web
         {
             ddlBankAccounts.Items.Clear();
             FindAllBankAccountResponse response =
-            new ApplicationBankAccountService().GetAllBankAccounts();
+                new ApplicationBankAccountService().GetAllBankAccounts();
             ddlBankAccounts.Items.Add(new ListItem("Select An Account", ""));
             foreach (BankAccountView accView in response.BankAccountView)
             {

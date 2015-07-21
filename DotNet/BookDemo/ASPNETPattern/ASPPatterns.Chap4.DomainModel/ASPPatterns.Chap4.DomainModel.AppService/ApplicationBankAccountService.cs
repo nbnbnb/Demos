@@ -14,10 +14,8 @@ namespace ASPPatterns.Chap4.DomainModel.AppService
         private BankAccountService _bankAccountService;
         private IBankAccountRepository _bankRepository;
 
-        public ApplicationBankAccountService(
-                IBankAccountRepository bankRepository,
-                BankAccountService bankAccountService
-            )
+        public ApplicationBankAccountService(IBankAccountRepository bankRepository,
+                BankAccountService bankAccountService)
         {
             _bankAccountService = bankAccountService;
             _bankRepository = bankRepository;

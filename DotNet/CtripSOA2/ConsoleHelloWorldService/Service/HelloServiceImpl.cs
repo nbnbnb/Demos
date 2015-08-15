@@ -13,6 +13,7 @@ namespace ConsoleHelloWorldService.Service
         //[Route("/sayHello")]
         public HelloResponseType Hello(HelloRequestType request)
         {
+            Console.WriteLine(String.Format("Get Request: {0}", DateTime.Now));
             return new HelloResponseType
             {
                 IsSuccess = true,

@@ -19,13 +19,12 @@ namespace ClientTest
     {
         static void Main(string[] args)
         {
-            Test_HelloService_WebClient();
-            //Test_HelloService_HttpWebRequest();
-            Console.ReadKey();
+            Test_HelloService_SOAClient();
+            Console.ReadKey(false);
         }
 
         #region Test
-        private static void Test_SettlementOpenAPI()
+        private static void Test_SettlementOpenAPI_SOAClient()
         {
             var webHost = "http://ws.settlement.ttd.fat6.qa.nt.ctripcorp.com/ticket-settlement-openapi/api";
 
@@ -52,7 +51,7 @@ namespace ClientTest
             Console.WriteLine("Error : {0}", response.ErrorMessage);
         }
 
-        private static void Test_SettlementService()
+        private static void Test_SettlementService_SOAClient()
         {
             var webHost = "http://ws.settlement.ttd.fat6.qa.nt.ctripcorp.com/ticket-settlement-service/api";
 
@@ -80,9 +79,11 @@ namespace ClientTest
 
         }
 
-        private static void Test_HelloService()
+        private static void Test_HelloService_SOAClient()
         {
-            HelloWorldServiceClient client = HelloWorldServiceClient.GetInstance("http://localhost:10000");
+            HelloWorldServiceClient client = HelloWorldServiceClient.GetInstance("http://www.zhangjin.me:9636");
+            client.Format = "json";  // 发起 HTTP 请求的地址为  http://www.zhangjin.me:9636/json/hello 
+            //client.Format = "xml";  // 发起 HTTP 请求的地址为  http://www.zhangjin.me:9636/xml/hello 
             var res = client.Hello(new HelloRequestType
             {
                 EndDate = DateTime.Now,
@@ -100,9 +101,13 @@ namespace ClientTest
             string data = @"<?xml version=""1.0"" encoding=""utf-8""?><HelloRequest xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://soa.ctrip.com/thingstodo/order/settlementopenapi/v1""><OrderId>123456</OrderId><UnitQuantity>4</UnitQuantity><EndDate>2015-08-04T17:56:43.5959493+08:00</EndDate><Price>99.99</Price></HelloRequest>";
             byte[] buf = System.Text.Encoding.UTF8.GetBytes(data);
             client.Headers.Set(HttpRequestHeader.ContentType, "application/xml; charset=utf-8");
-            string url = "http://www.zhangjin.me:9636/Hello.xml";  // IIS
+            string url = "http://www.zhangjin.me:9636/xml/hello";  // IIS
             //string url = "http://localhost:59127/Hello.xml";  // IIS Express
             byte[] resBuf = client.UploadData(url, buf);
+
+            // 前3个字节为 BOM 头
+            Console.WriteLine(Encoding.UTF8.GetString(resBuf, 3, resBuf.Length - 3));
+            Console.WriteLine("-----");
             string res_1 = Encoding.UTF8.GetString(resBuf, 0, resBuf.Length);
             string res_2 = String.Empty;
             Console.WriteLine(res_1);  // 头 3 个字节为 BOM 头，输出时将会显示为"?"
@@ -213,8 +218,8 @@ namespace ClientTest
         private static void Test_HelloService_HttpClient()
         {
             Console.WriteLine("-----");
-            HttpClient client = new HttpClient();
-            string url = "http://www.zhangjin.me:9636/Hello.xml";  // IIS
+            HttpClient client = new HttpClient(); 
+            string url = "http://www.zhangjin.me:9636/xml/hello";  // IIS  可以使用 hello.xml 格式，也可以使用  xml/hello
             //string url = "http://localhost:59127/Hello.xml";  // IIS Express
             string data = @"<?xml version=""1.0"" encoding=""utf-8""?><HelloRequest xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://soa.ctrip.com/thingstodo/order/settlementopenapi/v1""><OrderId>123456</OrderId><UnitQuantity>4</UnitQuantity><EndDate>2015-08-04T17:56:43.5959493+08:00</EndDate><Price>99.99</Price></HelloRequest>";
             byte[] buf = Encoding.UTF8.GetBytes(data);

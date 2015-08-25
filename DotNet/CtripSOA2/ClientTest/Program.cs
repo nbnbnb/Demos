@@ -1,6 +1,15 @@
 ﻿using Car.OAT.Client;
 using ConsoleHelloWorldClient.Client;
 using CServiceStack.Common.Types;
+using CTI.Email.CommonService.Entity;
+using Ctrip.SOA.Comm;
+using Ctrip.SOA.Comm.Agent;
+using Ctrip.SOA.Comm.Cache;
+using Ctrip.SOA.Comm.Entity;
+using Ctrip.SOA.Comm.Log;
+using Ctrip.SOA.Comm.Metrics;
+using Ctrip.SOA.Comm.Utility;
+using Freeway.Tracing;
 using GSA.Settlement.Api.Client;
 using GSA.Settlement.SettlementProcess.Client;
 using System;
@@ -12,6 +21,11 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Timers;
+using System.Reflection;
+using System.Linq.Expressions;
+using System.Text.RegularExpressions;
 
 namespace ClientTest
 {
@@ -21,9 +35,11 @@ namespace ClientTest
         {
             //SimpleRequest();
             //SimpleRequest();
-            Test_HelloService_WebClient();
-            Test_HelloService_HttpWebRequest();
-            Test_HelloService_HttpClient();
+            //Test_HelloService_WebClient();
+            //Test_HelloService_HttpWebRequest();
+            //Test_HelloService_HttpClient();
+
+            Test_SOA_1();
             Console.ReadKey();
         }
         private static void Test_SettlementOpenAPI()
@@ -98,11 +114,17 @@ namespace ClientTest
         {
             Console.WriteLine("-----");
             WebClient client = new WebClient();
+            WebProxy proxy = new WebProxy("http://127.0.0.1:8888", false); // 设置 Fiddler 的代理
+            proxy.BypassProxyOnLocal = false;
+            WebRequest.DefaultWebProxy = proxy;
+            client.Proxy = proxy;
             string data = @"<?xml version=""1.0"" encoding=""utf-8""?><HelloRequest xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://soa.ctrip.com/thingstodo/order/settlementopenapi/v1""><OrderId>123456</OrderId><UnitQuantity>4</UnitQuantity><EndDate>2015-08-04T17:56:43.5959493+08:00</EndDate><Price>99.99</Price></HelloRequest>";
             byte[] buf = System.Text.Encoding.UTF8.GetBytes(data);
             client.Headers.Set(HttpRequestHeader.ContentType, "application/xml; charset=utf-8");
             string url = "http://localhost:9636/Hello.xml";  // IIS
-            byte[] resBuf = client.UploadData(url, "POST", buf);
+
+            byte[] resBuf = client.UploadData(url, buf);
+
             Console.WriteLine(Encoding.UTF8.GetString(resBuf));
         }
 
@@ -139,7 +161,7 @@ namespace ClientTest
         private static void Test_HelloService_HttpClient()
         {
             Console.WriteLine("-----");
-            HttpClient client = new HttpClient();
+            System.Net.Http.HttpClient client = new System.Net.Http.HttpClient();
             string url = "http://localhost:9636/Hello.xml";  // IIS
 
             string data = @"<?xml version=""1.0"" encoding=""utf-8""?><HelloRequest xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://soa.ctrip.com/thingstodo/order/settlementopenapi/v1""><OrderId>123456</OrderId><UnitQuantity>4</UnitQuantity><EndDate>2015-08-04T17:56:43.5959493+08:00</EndDate><Price>99.99</Price></HelloRequest>";
@@ -150,7 +172,7 @@ namespace ClientTest
             HttpResponseMessage result = message.Result;
             Task<Stream> btking = result.Content.ReadAsStreamAsync();
             btking.Wait();
-            using (Stream stream=btking.Result)
+            using (Stream stream = btking.Result)
             {
                 using (StreamReader sr = new StreamReader(stream))
                 {
@@ -158,5 +180,42 @@ namespace ClientTest
                 }
             }
         }
+
+        private static void Test_SOA_1()
+        {
+            var mailRequest = new NewMailRequest();
+            mailRequest.SendCode = "12000";
+            mailRequest.Importance = "1"; //优先级
+            mailRequest.SourceID = 0;
+            mailRequest.Uid = "E00025341";
+            mailRequest.Recipient = "jinzhanga@ctrip.com";
+            mailRequest.RecipientName = "ZJ";
+            mailRequest.Cc = "";
+            mailRequest.Bcc = "";
+            mailRequest.Sender = "vip@ctrip.com"; //发送人地址必须为邮箱地址格式
+            mailRequest.SenderName = "用车订单系统";
+            mailRequest.DeadlineTime = DateTime.Now.AddHours(1);
+            mailRequest.Charset = "gb2312";
+            mailRequest.ContentType = "text/html";
+            mailRequest.BodyTemplateID = 4;//邮件模板ID
+            mailRequest.Subject = " 请尽快答复订单号(No.1705594457)供应商单号(),请核实供应商是否有订单";
+
+            var request = new Request
+            {
+                Header = new RequestHead
+                {
+                    UserID = "E00025341",
+                    RequestType = "CTI.EMail.CommonService.SendNewMail",
+                    Environment = "fws"
+                },
+                RequestBody = mailRequest
+            };
+
+            string requestXml= XMLSerializer.Serialize(request);
+
+            string responseXml = WSAgent.Request(requestXml);
+
+        }
+
     }
 }

@@ -1,6 +1,8 @@
 ﻿using Car.OAT.Client;
 using ConsoleHelloWorldClient.Client;
 using CServiceStack.Common.Types;
+using CTI.Email.CommonService.Entity;
+using Freeway.Tracing;
 using GSA.Settlement.Api.Client;
 using GSA.Settlement.SettlementProcess.Client;
 using System;
@@ -12,6 +14,11 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Timers;
+using System.Reflection;
+using System.Linq.Expressions;
+using System.Text.RegularExpressions;
 
 namespace ClientTest
 {
@@ -20,6 +27,9 @@ namespace ClientTest
         static void Main(string[] args)
         {
             Test_HelloService_SOAClient();
+            //Test_HelloService_HttpWebRequest();
+            //Test_HelloService_HttpClient();
+
             Console.ReadKey(false);
         }
 
@@ -102,7 +112,6 @@ namespace ClientTest
             byte[] buf = System.Text.Encoding.UTF8.GetBytes(data);
             client.Headers.Set(HttpRequestHeader.ContentType, "application/xml; charset=utf-8");
             string url = "http://www.zhangjin.me:9636/xml/hello";  // IIS
-            //string url = "http://localhost:59127/Hello.xml";  // IIS Express
             byte[] resBuf = client.UploadData(url, buf);
 
             // 前3个字节为 BOM 头
@@ -218,7 +227,7 @@ namespace ClientTest
         private static void Test_HelloService_HttpClient()
         {
             Console.WriteLine("-----");
-            HttpClient client = new HttpClient(); 
+            HttpClient client = new HttpClient();
             string url = "http://www.zhangjin.me:9636/xml/hello";  // IIS  可以使用 hello.xml 格式，也可以使用  xml/hello
             //string url = "http://localhost:59127/Hello.xml";  // IIS Express
             string data = @"<?xml version=""1.0"" encoding=""utf-8""?><HelloRequest xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns=""http://soa.ctrip.com/thingstodo/order/settlementopenapi/v1""><OrderId>123456</OrderId><UnitQuantity>4</UnitQuantity><EndDate>2015-08-04T17:56:43.5959493+08:00</EndDate><Price>99.99</Price></HelloRequest>";
@@ -237,6 +246,45 @@ namespace ClientTest
                 }
             }
         }
+
+        private static void Test_SOA1_Email()
+        {
+            var mailRequest = new NewMailRequest();
+            mailRequest.SendCode = "12000";
+            mailRequest.Importance = "1"; //优先级
+            mailRequest.SourceID = 0;
+            mailRequest.Uid = "E00025341";
+            mailRequest.Recipient = "jinzhanga@ctrip.com";
+            mailRequest.RecipientName = "ZJ";
+            mailRequest.Cc = "";
+            mailRequest.Bcc = "";
+            mailRequest.Sender = "vip@ctrip.com"; //发送人地址必须为邮箱地址格式
+            mailRequest.SenderName = "用车订单系统";
+            mailRequest.DeadlineTime = DateTime.Now.AddHours(1);
+            mailRequest.Charset = "gb2312";
+            mailRequest.ContentType = "text/html";
+            mailRequest.BodyTemplateID = 4;//邮件模板ID
+            mailRequest.Subject = " 请尽快答复订单号(No.1705594457)供应商单号(),请核实供应商是否有订单";
+
+            var request = new Request
+            {
+                Header = new Ctrip.SOA.Comm.RequestHead
+                {
+                    UserID = "E00025341",
+                    RequestType = "CTI.EMail.CommonService.SendNewMail",
+                    Environment = "fws"
+                },
+                RequestBody = mailRequest
+            };
+
+            string requestXml = Ctrip.SOA.Comm.XMLSerializer.Serialize(request);
+
+            // Request 将会读取 ReleaseInfo.config.info 中的 Target->EnvType 节点
+            string responseXml = Ctrip.SOA.Comm.WSAgent.Request(requestXml);
+
+        }
+
         #endregion
+
     }
 }

@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,11 +33,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Arch.CFX, Version=1.7.2.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Arch.CFX.dll</HintPath>
+    </Reference>
     <Reference Include="Car.OAT.Client">
       <HintPath>..\lib\Car.OAT.Client.dll</HintPath>
     </Reference>
     <Reference Include="CServiceStack.Mega">
       <HintPath>..\lib\CServiceStack.Mega.dll</HintPath>
+    </Reference>
+    <Reference Include="CTI.Email.CommonService.Entity">
+      <HintPath>..\lib\CTI.Email.CommonService.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="Ctrip.SOA.Comm">
+      <HintPath>..\lib\Ctrip.SOA.Comm.dll</HintPath>
     </Reference>
     <Reference Include="Framework.Logging.V2.API">
       <HintPath>..\lib\Framework.Logging.V2.API.dll</HintPath>
@@ -62,7 +73,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ConsoleHelloWorldClient\ConsoleHelloWorldClient.csproj">

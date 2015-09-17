@@ -131,14 +131,14 @@ namespace LinqToTerraServerProvider
                 if (expression != null)
                 {
                     bool tp = _cannotBeEvaluated;
-
                     _cannotBeEvaluated = false;
-
+                    Console.WriteLine(expression);
+                    // 将会递归调用
                     base.Visit(expression);
-
+                    Console.WriteLine("---" + expression.ToString());
                     if (!_cannotBeEvaluated)
                     {
-                        if (_fnCanBeEvaluated(expression))
+                        if (_fnCanBeEvaluated(expression))   // 如果为参数，或者参数对象的属性，则不进行计算【例如 place,place.Name】
                         {
                             _candidates.Add(expression);
                         }
@@ -148,8 +148,8 @@ namespace LinqToTerraServerProvider
                         }
                     }
                     _cannotBeEvaluated |= tp;
-
                 }
+
 
                 return expression;
             }

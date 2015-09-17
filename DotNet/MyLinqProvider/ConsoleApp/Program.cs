@@ -14,8 +14,9 @@ namespace ConsoleApp
             QueryableTerraServerData<Place> terraPlaces = new QueryableTerraServerData<Place>();
 
             var query = from place in terraPlaces
-                            where place.Name == GetName() && place.State == GetState("btking")
-                        //where place.Age == 100 && place.Name == GetName()
+                            //    where place.Name == GetName() && place.State == GetState("btking")
+                            //where place.Age == 100 && place.Name == GetName()
+                        where "001"==place.Name
                         select place.PlaceType;
 
             foreach (PlaceType placeType in query)

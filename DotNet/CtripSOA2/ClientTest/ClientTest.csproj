@@ -40,6 +40,12 @@
     <Reference Include="Car.OAT.Client">
       <HintPath>..\lib\Car.OAT.Client.dll</HintPath>
     </Reference>
+    <Reference Include="Car.Settlement.Api.Client">
+      <HintPath>..\lib\Car.Settlement.Api.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Car.Settlement.SettlementProcess.Client">
+      <HintPath>..\lib\Car.Settlement.SettlementProcess.Client.dll</HintPath>
+    </Reference>
     <Reference Include="CServiceStack.Mega">
       <HintPath>..\lib\CServiceStack.Mega.dll</HintPath>
     </Reference>
@@ -69,6 +75,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CarSettlementAPITest.cs" />
+    <Compile Include="CarSettlementServiceTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

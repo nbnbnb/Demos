@@ -20,15 +20,19 @@ using System.Reflection;
 using System.Linq.Expressions;
 using System.Text.RegularExpressions;
 
+
 namespace ClientTest
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Test_HelloService_SOAClient();
-            //Test_HelloService_HttpWebRequest();
-            //Test_HelloService_HttpClient();
+            CarSettlementAPITest.Test_FAT();
+            //CarSettlementAPITest.Test_Local();
+            //CarSettlementAPITest.Test_Car_SettlementService_Local();
+            //CarSettlementServiceTest.Test_Car_SettlementService_FAT();
+            //CarSettlementServiceTest.Test_Car_SettlementService_Local();
+            //Test_SettlementOpenAPI_SOAClient();
 
             Console.ReadKey(false);
         }
@@ -283,6 +287,7 @@ namespace ClientTest
             string responseXml = Ctrip.SOA.Comm.WSAgent.Request(requestXml);
 
         }
+
 
         #endregion
 

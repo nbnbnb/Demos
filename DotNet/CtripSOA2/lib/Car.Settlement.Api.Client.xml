@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Car.Settlement.Api.Client</name>
+    </assembly>
+    <members>
+        <member name="T:Car.Settlement.Api.Client.BillCallBackRequestBody">
+            <summary>
+            提交付款申请回调 请求类型
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.BillCallBackRequestBody.UserID">
+            <summary>
+            客户端应用程序号
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.BillCallBackRequestBody.BillID">
+            <summary>
+            付款申请单ID
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.BillCallBackRequestBody.Eid">
+            <summary>
+            上一环节的处理人
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.BillCallBackRequestBody.Time">
+            <summary>
+            上一环节处理完成的时间
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.BillCallBackRequestBody.Status">
+            <summary>
+            付款申请单当前的状态
+            0--待确认
+            10--确认拒绝
+            100--已确认待合并
+            110--拒绝付款
+            200--合并完成（最终状态）
+            </summary>
+        </member>
+        <member name="T:Car.Settlement.Api.Client.BillCallBackResponseBody">
+            <summary>
+            提交付款申请回调响应类型
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.BillCallBackResponseBody.ResponseStatus">
+            <summary>
+            响应状态
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.BillCallBackResponseBody.IsSuccess">
+            <summary>
+            是否成功接收回调消息。True表示成功，false表示失败。
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.BillCallBackResponseBody.ReturnCode">
+            <summary>
+            回调失败时的返回错误码；回调成功无需填写。
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.BillCallBackResponseBody.ReturnMessage">
+            <summary>
+            回调失败时的返回消息，描述错误信息；回调成功无需填写。
+            </summary>
+        </member>
+        <member name="T:Car.Settlement.Api.Client.RequestHead">
+            <summary>
+            请求消息头部
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.RequestHead.UserID">
+            <summary>
+            客户端应用程序号
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.RequestHead.RequestType">
+            <summary>
+            请求类型
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.RequestHead.ReferenceID">
+            <summary>
+            流水号
+            </summary>
+        </member>
+        <member name="T:Car.Settlement.Api.Client.SettlementApplyDetailInfo">
+            <summary>
+            订单详情
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.OrderId">
+            <summary>
+            订单号
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.PurchaseOrderId">
+            <summary>
+            采购单号
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.PayMode">
+            <summary>
+            支付方式，P：预付 O:现付
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.BussinessId">
+            <summary>
+            产线号
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.OrderDate">
+            <summary>
+            订单时间
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.Currency">
+            <summary>
+            底价币种
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.PriceCurrency">
+            <summary>
+            卖价币种
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.Quantity">
+            <summary>
+            数量
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.UnitQuantity">
+            <summary>
+            单位数量
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.UseDate">
+            <summary>
+            使用时间
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.EndDate">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.Price">
+            <summary>
+            卖价
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.Cost">
+            <summary>
+            底价
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.CustomerName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.ProviderId">
+            <summary>
+            供应商Id
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.OrderItemId">
+            <summary>
+            销货单Id
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.ThirdPartId">
+            <summary>
+            第三方Id
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.ResourceName">
+            <summary>
+            资源名称
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyDetailInfo.CtripOrderId">
+            <summary>
+            下单ID
+            </summary>
+        </member>
+        <member name="T:Car.Settlement.Api.Client.SettlementApplyRequestType">
+            <summary>
+            抛结算请求类型
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyRequestType.SettlementApplyDetailInfoList">
+            <summary>
+            订单抛结算订单详情
+            </summary>
+        </member>
+        <member name="T:Car.Settlement.Api.Client.SettlementApplyResponseType">
+            <summary>
+            抛结算响应类型
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyResponseType.ResponseStatus">
+            <summary>
+            响应状态
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyResponseType.IsSuccess">
+            <summary>
+            是否成功
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyResponseType.ErrorCode">
+            <summary>
+            失败代码
+            </summary>
+        </member>
+        <member name="P:Car.Settlement.Api.Client.SettlementApplyResponseType.ErrorMessage">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="T:Car.Settlement.Api.Client.SettlementOpenAPIClient">
+            <summary>
+            Service client auto-generated by SOA tool, DO NOT CHANGE!
+            
+            
+            </summary>
+        </member>
+    </members>
+</doc>

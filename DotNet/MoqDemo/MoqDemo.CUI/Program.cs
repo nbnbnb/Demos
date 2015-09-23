@@ -52,11 +52,12 @@ namespace MoqDemo.CUI
             // 触发事件时，只需 m.Send+=null 即可，无实际作用
             //     Raises the event referenced in eventExpression using the given args argument
             //     for a non-EventHandler typed event.
-            mock_events.Raise(m => m.Send += null, 200, false);
+            mock_events.Raise(m => m.Send += null, 200, false);  // 通过传递的表达式树，获取事件信息
 
             // 设置触发事件的条件
             // 在调用Submit()方法时，触发事件
-            mock_events.Setup(m => m.Submit()).Raises(e => e.Send += null, 100, true);
+            mock_events.Setup(m => m.Submit())
+                .Raises(e => e.Send += null, 100, true);
             // 触发事件
             mock_events.Object.Submit();
 
@@ -97,7 +98,7 @@ namespace MoqDemo.CUI
             mock_verification.Object.UserName = "C";
             mock_verification.VerifySet(m => m.UserName = "ZhangJin", Times.Once());   // 验证属性被设置过了一次(设置值为 ZhangJin)
             mock_verification.VerifySet(m => m.UserName =
-                It.IsInRange<string>("A", "Z", Range.Inclusive), Times.Exactly(3));   // 验证属性被设置过了一次
+                It.IsInRange<string>("A", "Z", Range.Inclusive), Times.Exactly(3));   // 验证属性被设置过了三次
 
             #endregion
 

@@ -34,6 +34,14 @@ namespace ClientTest
             //CarSettlementServiceTest.Test_Car_SettlementService_Local();
             //Test_SettlementOpenAPI_SOAClient();
 
+            string gg = "";
+
+            if (gg.Equals("", StringComparison.OrdinalIgnoreCase))
+            {
+
+            }
+
+
             Console.ReadKey(false);
         }
 

@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,7 +23,7 @@ namespace ClientTest
 
             request.SettlementApplyDetailInfoList.Add(new SettlementApplyDetailInfo
             {
-          
+
                 Cost = 12.34m,
                 CtripOrderId = "0245",
                 Currency = "RMB",
@@ -42,7 +43,6 @@ namespace ClientTest
                 UseDate = DateTime.Now.AddDays(5)
             });
 
-
             var response = client.SettlementApply(request);
 
             Console.WriteLine("Error : {0}", response.ErrorMessage);
@@ -50,9 +50,13 @@ namespace ClientTest
 
         public static void Test_Local()
         {
+            // DST61947
 
-            var webHost = "http://www.zhangjin.me/settlementopenapi/api";
+            Uri url = new Uri("http://127.0.0.1:8888");
 
+            //WebRequest.DefaultWebProxy = new WebProxy(url, false);
+
+            var webHost = "http://ipv4.fiddler/settlementopenapi/api";
             var client = SettlementOpenAPIClient.GetInstance(webHost);
 
             var request = new SettlementApplyRequestType()
@@ -81,7 +85,6 @@ namespace ClientTest
                 UnitQuantity = 111,
                 UseDate = DateTime.Now.AddDays(5)
             });
-
 
             var response = client.SettlementApply(request);
 

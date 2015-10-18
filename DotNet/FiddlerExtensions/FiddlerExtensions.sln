@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagCookieChecker", "TagCookieChecker\TagCookieChecker.csproj", "{1176DB12-4F9F-499D-A2D5-8F31B1E3F9FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CVSTranscoder", "CVSTranscoder\CVSTranscoder.csproj", "{B77E76B3-F6FA-460E-B83C-75BFF73EE8D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiddlerCoreDemo", "FiddlerCoreDemo\FiddlerCoreDemo.csproj", "{0207F231-C44F-476C-9DBB-9B1F02C6BAD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1176DB12-4F9F-499D-A2D5-8F31B1E3F9FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1176DB12-4F9F-499D-A2D5-8F31B1E3F9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1176DB12-4F9F-499D-A2D5-8F31B1E3F9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1176DB12-4F9F-499D-A2D5-8F31B1E3F9FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B77E76B3-F6FA-460E-B83C-75BFF73EE8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77E76B3-F6FA-460E-B83C-75BFF73EE8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77E76B3-F6FA-460E-B83C-75BFF73EE8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77E76B3-F6FA-460E-B83C-75BFF73EE8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0207F231-C44F-476C-9DBB-9B1F02C6BAD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0207F231-C44F-476C-9DBB-9B1F02C6BAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0207F231-C44F-476C-9DBB-9B1F02C6BAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0207F231-C44F-476C-9DBB-9B1F02C6BAD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

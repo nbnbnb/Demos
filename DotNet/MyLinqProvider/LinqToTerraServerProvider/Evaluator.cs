@@ -138,7 +138,10 @@ namespace LinqToTerraServerProvider
                     Console.WriteLine("---" + expression.ToString());
                     if (!_cannotBeEvaluated)
                     {
-                        if (_fnCanBeEvaluated(expression))   // 如果为参数，或者参数对象的属性，则不进行计算【例如 place,place.Name】
+                        // 如果为参数，或者参数对象的属性，则不进行计算【place,place.Name】
+                        // 例如首先读取 place 参数，此时将 _cannotBeEvaluated 设置为 true
+                        // 当递归读取 place.Name 时，也同样不进行计算
+                        if (_fnCanBeEvaluated(expression))  
                         {
                             _candidates.Add(expression);
                         }
@@ -149,8 +152,6 @@ namespace LinqToTerraServerProvider
                     }
                     _cannotBeEvaluated |= tp;
                 }
-
-
                 return expression;
             }
         }

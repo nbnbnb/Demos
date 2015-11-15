@@ -13,7 +13,8 @@ namespace FakesDemoUnitTest
 {
     // 类名的命名方式为： 测试类名+Test
     // 测试方法的命名方式为： 测试方法名_执行结果_得到此结果的条件/原因
-
+    // Fakes 视频
+    // https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Improving-quality-with-unit-tests-and-fakes
     [TestClass]
     public class FakeLibTest
     {

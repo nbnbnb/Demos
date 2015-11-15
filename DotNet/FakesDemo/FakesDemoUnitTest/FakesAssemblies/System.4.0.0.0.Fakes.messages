@@ -1,486 +1,488 @@
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Text.RegularExpressions.MatchEvaluator 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Text.RegularExpressions.Capture 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Text.RegularExpressions.CaptureCollection 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Text.RegularExpressions.Group 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Text.RegularExpressions.GroupCollection 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Text.RegularExpressions.Match 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Text.RegularExpressions.MatchCollection 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Text.RegularExpressions.RegexOptions 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.CodeBinaryOperatorType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.CodeRegionMode 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.CodeTypeReferenceOptions 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.FieldDirection 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.MemberAttributes 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.AddingNewEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.AmbientValueAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.AsyncCompletedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.AsyncOperation 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.AsyncOperationManager 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.BindableAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.BindableSupport 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.BindingDirection 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.BrowsableAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.CancelEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.CollectionChangeAction 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.CollectionChangeEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ComplexBindingPropertiesAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DataObjectAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DataObjectFieldAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DataObjectMethodAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DataObjectMethodType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DefaultBindingPropertyAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DefaultEventAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DefaultPropertyAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DesignerAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DesignerCategoryAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DesignerSerializationVisibility 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DesignerSerializationVisibilityAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DesignOnlyAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DesignTimeVisibleAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DoWorkEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.EditorAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.EditorBrowsableAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.EditorBrowsableState 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.EventHandlerList 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ExtenderProvidedPropertyAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.HandledEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.IComNativeDescriptorHandler 生成存根: 类型已过时。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ImmutableObjectAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.InitializationEventAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.LicenseManager 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.LicenseProviderAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.LicenseUsageMode 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ListBindableAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ListChangedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ListChangedType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ListSortDirection 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.LocalizableAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.LookupBindingPropertiesAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.MaskedTextResultHint 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.MergablePropertyAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.PasswordPropertyTextAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ProgressChangedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.PropertyChangedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.PropertyChangingEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ProvidePropertyAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ReadOnlyAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.RecommendedAsConfigurableAttribute 生成存根: 类型已过时。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.RefreshEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.RunWorkerCompletedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.SettingsBindableAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.SyntaxCheck 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ToolboxItemFilterAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ToolboxItemFilterType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.TypeConverterAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.TypeDescriptionProviderAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.TypeDescriptor 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ActiveDesignerEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ComponentChangedEventArgs 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ComponentChangedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ComponentChangingEventArgs 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ComponentChangingEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ComponentEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ComponentRenameEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.DesignerTransactionCloseEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.DesigntimeLicenseContextSerializer 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.DesignerEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.HelpContextType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.HelpKeywordAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.HelpKeywordType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.InheritanceAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.InheritanceLevel 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.IResourceService 生成存根: method System.Resources.IResourceReader System.ComponentModel.Design.IResourceService.GetResourceReader(System.Globalization.CultureInfo info) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.Globalization.CultureInfo 在目标框架版本中不可用。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.NotifyParentPropertyAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ParenthesizePropertyNameAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.PropertyTabScope 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.RefreshProperties 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.RefreshPropertiesAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.SelectionTypes 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ServiceCreatorCallback 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ViewTechnology 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.ComponentSerializationService 生成存根: method System.ComponentModel.Design.Serialization.SerializationStore System.ComponentModel.Design.Serialization.ComponentSerializationService.LoadStore(System.IO.Stream stream) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.Stream 在目标框架版本中不可用。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.ContextStack 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.DesignerSerializerAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.InstanceDescriptor 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.MemberRelationship 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.ResolveNameEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.SerializationStore 生成存根: method System.Void System.ComponentModel.Design.Serialization.SerializationStore.Save(System.IO.Stream stream) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.Stream 在目标框架版本中不可用。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.CorrelationManager 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.Debug 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.SourceLevels 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.SwitchAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.SwitchLevelAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.Trace 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.TraceEventType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.TraceLevel 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.TraceListenerCollection 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.TraceOptions 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.ICodeGenerator 生成存根: method System.Void System.CodeDom.Compiler.ICodeGenerator.GenerateCodeFromCompileUnit(System.CodeDom.CodeCompileUnit e, System.IO.TextWriter w, System.CodeDom.Compiler.CodeGeneratorOptions o) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextWriter 在目标框架版本中不可用。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.ICodeParser 生成存根: method System.CodeDom.CodeCompileUnit System.CodeDom.Compiler.ICodeParser.Parse(System.IO.TextReader codeStream) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextReader 在目标框架版本中不可用。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.CodeParser 生成存根: method System.CodeDom.CodeCompileUnit System.CodeDom.Compiler.CodeParser.Parse(System.IO.TextReader codeStream) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextReader 在目标框架版本中不可用。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.CompilerInfo 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.Executor 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.GeneratedCodeAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.GeneratorSupport 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.IndentedTextWriter 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.LanguageOptions 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Compression.CompressionMode 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Compression.DeflateStream 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Compression.GZipStream 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.InvalidDataException 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.HandleCollector 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.DefaultParameterValueAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.Versioning.FrameworkName 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Threading.Semaphore 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Threading.BarrierPostPhaseException 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Threading.Barrier 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Media.SystemSounds 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Media.SystemSound 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.AccessControl.SemaphoreRights 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.AccessControl.SemaphoreAccessRule 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.AccessControl.SemaphoreAuditRule 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.AccessControl.SemaphoreSecurity 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Threading.ThreadExceptionEventArgs 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Threading.ThreadExceptionEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Generic.LinkedListNode`1 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Specialized.BitVector32 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Specialized.NotifyCollectionChangedAction 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Specialized.NotifyCollectionChangedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Specialized.StringEnumerator 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.ComTypes.ADVF 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.ComTypes.DATADIR 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.ComTypes.DVASPECT 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.ComTypes.FORMATETC 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.ComTypes.STATDATA 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.ComTypes.STGMEDIUM 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.ComTypes.TYMED 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.PowerModeChangedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.PowerModes 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.SessionEndedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.SessionEndingEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.SessionEndReasons 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.SessionSwitchEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.SessionSwitchReason 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.SystemEvents 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.TimerElapsedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.UserPreferenceCategory 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.UserPreferenceChangedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.UserPreferenceChangingEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Permissions.StorePermission 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Permissions.StorePermissionAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Permissions.StorePermissionFlags 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Permissions.TypeDescriptorPermissionFlags 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Permissions.TypeDescriptorPermission 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Permissions.TypeDescriptorPermissionAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.AsnEncodedData 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.AsnEncodedDataCollection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.AsnEncodedDataEnumerator 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.Oid 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.OidCollection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.OidEnumerator 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X500DistinguishedName 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509NameType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509IncludeOption 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.PublicKey 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509FindType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509ChainStatusFlags 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509ChainStatus 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509ChainElement 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509ChainElementCollection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509RevocationMode 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509RevocationFlag 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509VerificationFlags 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509ChainPolicy 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509Extension 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509KeyUsageFlags 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509KeyUsageExtension 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509ExtensionCollection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.StoreLocation 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.OpenFlags 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.StoreName 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509Store 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.ExtendedProtection.ChannelBindingKind 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.ExtendedProtection.PolicyEnforcement 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.ExtendedProtection.ProtectionScenario 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.ExtendedProtection.Configuration.ExtendedProtectionPolicyElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.ExtendedProtection.Configuration.ServiceNameElementCollection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.ExtendedProtection.Configuration.ServiceNameElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.UriHostNameType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.UriPartial 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.UriKind 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.UriComponents 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.UriFormat 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.UriIdnScope 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.GenericUriParserOptions 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.AuthenticationManager 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.AuthenticationSchemes 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.AuthenticationSchemeSelector 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Cookie 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Dns 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DnsPermissionAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DnsPermission 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.FtpStatusCode 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.WebRequestMethods 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.FtpWebRequest 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.FtpWebResponse 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.GlobalProxySelection 生成存根: 类型已过时。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpListenerBasicIdentity 生成存根: 类型不受支持，因为存在于内部限制。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpListener 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpListenerContext 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpListenerPrefixCollection 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpListenerRequest 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpListenerResponse 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpRequestHeader 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpResponseHeader 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpStatusCode 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DecompressionMethods 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpContinueDelegate 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkAccess 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.BindIPEndPoint 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.ServicePoint 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.SecurityProtocolType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.ServicePointManager 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.SocketPermissionAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.SocketPermission 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.EndpointPermission 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.TransportType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.OpenReadCompletedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.OpenReadCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.OpenWriteCompletedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.OpenWriteCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DownloadStringCompletedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DownloadStringCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DownloadDataCompletedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DownloadDataCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadStringCompletedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadStringCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadDataCompletedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadDataCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadFileCompletedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadFileCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadValuesCompletedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadValuesCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DownloadProgressChangedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DownloadProgressChangedEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadProgressChangedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadProgressChangedEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.WebExceptionStatus 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.WebPermissionAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.WebPermission 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.WebUtility 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.NetworkStream 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Cache.RequestCacheLevel 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Cache.HttpRequestCacheLevel 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Cache.HttpCacheAgeControl 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.AuthenticatedStream 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.AuthenticationLevel 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.ProtectionLevel 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.NegotiateStream 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.SslProtocols 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.ExchangeAlgorithmType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.CipherAlgorithmType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.HashAlgorithmType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.SslPolicyErrors 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.EncryptionPolicy 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.RemoteCertificateValidationCallback 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.LocalCertificateSelectionCallback 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.SslStream 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.AddressFamily 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.IOControlCode 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.IPProtectionLevel 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.ProtocolFamily 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.ProtocolType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SelectMode 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketInformationOptions 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketInformation 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketAsyncOperation 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketError 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketFlags 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketOptionLevel 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketOptionName 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketShutdown 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.TransmitFileOptions 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.IPPacketInformation 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.DuplicateAddressDetectionState 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkInterfaceType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.IPAddressInformationCollection 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.IPStatus 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkAvailabilityEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkChange 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkAddressChangedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkInformationAccess 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkInformationPermissionAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkInformationPermission 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkInterfaceComponent 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetBiosNodeType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.OperationalStatus 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.PingCompletedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.PingCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.PingReply 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.PrefixOrigin 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.SuffixOrigin 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.TcpState 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.AuthenticationModuleElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.AuthenticationModuleElementCollection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.AuthenticationModulesSection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.BypassElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.BypassElementCollection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.ConnectionManagementElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.ConnectionManagementElementCollection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.ConnectionManagementSection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.DefaultProxySection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.HttpWebRequestElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.HttpListenerElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.HttpCachePolicyElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.FtpCachePolicyElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.Ipv6Element 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.MailSettingsSectionGroup 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.ModuleElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.NetSectionGroup 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.PerformanceCountersElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.ProxyElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.RequestCachingSection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SchemeSettingElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SchemeSettingElementCollection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.SettingsSection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.ServicePointManagerElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.SmtpSection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.SmtpNetworkElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.SmtpSpecifiedPickupDirectoryElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.SocketElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.WebProxyScriptElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.WebRequestModuleElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.WebRequestModuleElementCollection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.WebRequestModulesSection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.UriSection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.IriParsingElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.IdnElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.AlternateViewCollection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.AttachmentCollection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mime.DispositionTypeNames 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.LinkedResourceCollection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.DeliveryNotificationOptions 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mime.MediaTypeNames 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.MailPriority 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.SendCompletedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.SmtpDeliveryMethod 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.SmtpAccess 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.SmtpPermissionAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.SmtpPermission 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.SmtpStatusCode 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mime.TransferEncoding 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsLoadedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsSavingEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingChangingEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.ConfigurationSettings 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.ConfigXmlDocument 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.ApplicationScopedSettingAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.DefaultSettingValueAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.NoSettingsVersionUpgradeAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsDescriptionAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsGroupDescriptionAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsGroupNameAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsManageabilityAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsProviderAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsSerializeAsAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SpecialSettingAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.UserScopedSettingAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsManageability 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SpecialSetting 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsSerializeAs 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.ApplicationSettingsGroup 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.UserSettingsGroup 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.ClientSettingsSection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingElementCollection 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingValueElement 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.NotifyFilters 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.ErrorEventArgs 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.ErrorEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.FileSystemEventArgs 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.FileSystemEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.FileSystemWatcher 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.InternalBufferOverflowException 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.IODescriptionAttribute 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.RenamedEventArgs 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.RenamedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.WaitForChangedResult 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.WatcherChangeTypes 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Timers.ElapsedEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Timers.ElapsedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Web.AspNetHostingPermissionLevel 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Web.AspNetHostingPermissionAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Web.AspNetHostingPermission 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.CounterSample 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.CounterSampleCalculator 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.DataReceivedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.DataReceivedEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.DiagnosticsConfigurationHandler 生成存根: 类型已过时。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.EntryWrittenEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.EventLogEntry 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.EventLogEntryCollection 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.EventLogEntryType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.EventLogPermission 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.EventLogPermissionAccess 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.EventLogPermissionEntryCollection 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.EventLogTraceListener 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.FileVersionInfo 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.OverflowAction 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounter 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounterCategory 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounterCategoryType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounterInstanceLifetime 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounterManager 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounterPermission 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounterPermissionAccess 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounterPermissionEntryCollection 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounterType 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.ProcessModule 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.ProcessPriorityClass 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.ProcessStartInfo 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.ProcessThread 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.ProcessWindowStyle 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.ThreadPriorityLevel 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.ThreadState 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.ThreadWaitReason 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.Handshake 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.Parity 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialError 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialErrorReceivedEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialErrorReceivedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialPinChange 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialPinChangedEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialPinChangedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialData 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialDataReceivedEventArgs 生成存根: 类型没有系列可见的构造函数。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialDataReceivedEventHandler 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.StopBits 生成存根: 类型是一个值类型。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Concurrent.SystemThreadingCollections_BlockingCollectionDebugView`1 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Concurrent.SystemThreadingCollection_IProducerConsumerCollectionDebugView`1 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Generic.System_CollectionDebugView`1 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Generic.System_QueueDebugView`1 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Generic.System_StackDebugView`1 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Generic.System_DictionaryDebugView`2 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Generic.System_DictionaryKeyCollectionDebugView`2 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Generic.System_DictionaryValueCollectionDebugView`2 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Generic.SortedSetDebugView`1 生成存根: 类型对 exported or assembly(System.4.0.0.0.Fakes) 不可见。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.AlphabeticalEnumConverter 生成存根: 类型对 exported or assembly(System.4.0.0.0.Fakes) 不可见。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 FXAssembly 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 ThisAssembly 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 AssemblyRef 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.SRDescriptionAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.SRCategoryAttribute 生成存根: 类型已密封。
-D:\DotNet\Study Demo\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 <PrivateImplementationDetails>{C519B58E-6CD8-4B65-BE32-92633E98E2FE} 生成存根: 类型不受支持，因为存在于内部限制。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Text.RegularExpressions.MatchEvaluator 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Text.RegularExpressions.Capture 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Text.RegularExpressions.CaptureCollection 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Text.RegularExpressions.Group 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Text.RegularExpressions.GroupCollection 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Text.RegularExpressions.Match 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Text.RegularExpressions.MatchCollection 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Text.RegularExpressions.RegexOptions 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.CodeBinaryOperatorType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.CodeRegionMode 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.CodeTypeReferenceOptions 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.FieldDirection 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.MemberAttributes 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.AddingNewEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.AmbientValueAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.AsyncCompletedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.AsyncOperation 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.AsyncOperationManager 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.BindableAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.BindableSupport 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.BindingDirection 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.BrowsableAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.CancelEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.CollectionChangeAction 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.CollectionChangeEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ComplexBindingPropertiesAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DataObjectAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DataObjectFieldAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DataObjectMethodAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DataObjectMethodType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DefaultBindingPropertyAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DefaultEventAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DefaultPropertyAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DesignerAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DesignerCategoryAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DesignerSerializationVisibility 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DesignerSerializationVisibilityAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DesignOnlyAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DesignTimeVisibleAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.DoWorkEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.EditorAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.EditorBrowsableAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.EditorBrowsableState 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.EventHandlerList 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ExtenderProvidedPropertyAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.HandledEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.IComNativeDescriptorHandler 生成存根: 类型已过时。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ImmutableObjectAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.InitializationEventAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.LicenseManager 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.LicenseProviderAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.LicenseUsageMode 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ListBindableAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ListChangedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ListChangedType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ListSortDirection 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.LocalizableAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.LookupBindingPropertiesAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.MaskedTextResultHint 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.MergablePropertyAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.PasswordPropertyTextAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ProgressChangedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.PropertyChangedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.PropertyChangingEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ProvidePropertyAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ReadOnlyAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.RecommendedAsConfigurableAttribute 生成存根: 类型已过时。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.RefreshEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.RunWorkerCompletedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.SettingsBindableAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.SyntaxCheck 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ToolboxItemFilterAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ToolboxItemFilterType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.TypeConverterAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.TypeDescriptionProviderAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.TypeDescriptor 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ActiveDesignerEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ComponentChangedEventArgs 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ComponentChangedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ComponentChangingEventArgs 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ComponentChangingEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ComponentEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ComponentRenameEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.DesignerTransactionCloseEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.DesigntimeLicenseContextSerializer 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.DesignerEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.HelpContextType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.HelpKeywordAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.HelpKeywordType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.InheritanceAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.InheritanceLevel 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.IResourceService 生成存根: method System.Resources.IResourceReader System.ComponentModel.Design.IResourceService.GetResourceReader(System.Globalization.CultureInfo info) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.Globalization.CultureInfo 在目标框架版本中不可用。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.NotifyParentPropertyAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.ParenthesizePropertyNameAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.PropertyTabScope 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.RefreshProperties 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.RefreshPropertiesAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.SelectionTypes 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ServiceCreatorCallback 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.ViewTechnology 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.ComponentSerializationService 生成存根: method System.ComponentModel.Design.Serialization.SerializationStore System.ComponentModel.Design.Serialization.ComponentSerializationService.LoadStore(System.IO.Stream stream) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.Stream 在目标框架版本中不可用。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.ContextStack 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.DefaultSerializationProviderAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.DesignerSerializerAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.InstanceDescriptor 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.MemberRelationship 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.ResolveNameEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.RootDesignerSerializerAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.ComponentModel.Design.Serialization.SerializationStore 生成存根: method System.Void System.ComponentModel.Design.Serialization.SerializationStore.Save(System.IO.Stream stream) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.Stream 在目标框架版本中不可用。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.CorrelationManager 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.Debug 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.SourceLevels 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.SwitchAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.SwitchLevelAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.Trace 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.TraceEventType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.TraceLevel 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.TraceListenerCollection 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.TraceOptions 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.ICodeGenerator 生成存根: method System.Void System.CodeDom.Compiler.ICodeGenerator.GenerateCodeFromCompileUnit(System.CodeDom.CodeCompileUnit e, System.IO.TextWriter w, System.CodeDom.Compiler.CodeGeneratorOptions o) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextWriter 在目标框架版本中不可用。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.ICodeParser 生成存根: method System.CodeDom.CodeCompileUnit System.CodeDom.Compiler.ICodeParser.Parse(System.IO.TextReader codeStream) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextReader 在目标框架版本中不可用。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.CodeParser 生成存根: method System.CodeDom.CodeCompileUnit System.CodeDom.Compiler.CodeParser.Parse(System.IO.TextReader codeStream) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextReader 在目标框架版本中不可用。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.CompilerInfo 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.Executor 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.GeneratedCodeAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.GeneratorSupport 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.IndentedTextWriter 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.CodeDom.Compiler.LanguageOptions 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Compression.CompressionMode 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Compression.DeflateStream 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Compression.GZipStream 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.InvalidDataException 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.HandleCollector 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.DefaultParameterValueAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.Versioning.FrameworkName 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Threading.Semaphore 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Threading.BarrierPostPhaseException 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Threading.Barrier 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Media.SystemSounds 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Media.SystemSound 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.AccessControl.SemaphoreRights 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.AccessControl.SemaphoreAccessRule 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.AccessControl.SemaphoreAuditRule 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.AccessControl.SemaphoreSecurity 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Threading.ThreadExceptionEventArgs 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Threading.ThreadExceptionEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Generic.LinkedListNode`1 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Specialized.BitVector32 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Specialized.NotifyCollectionChangedAction 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Specialized.NotifyCollectionChangedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Specialized.StringEnumerator 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.ComTypes.ADVF 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.ComTypes.DATADIR 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.ComTypes.DVASPECT 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.ComTypes.FORMATETC 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.ComTypes.STATDATA 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.ComTypes.STGMEDIUM 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Runtime.InteropServices.ComTypes.TYMED 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.PowerModeChangedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.PowerModes 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.SessionEndedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.SessionEndingEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.SessionEndReasons 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.SessionSwitchEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.SessionSwitchReason 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.SystemEvents 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.TimerElapsedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.UserPreferenceCategory 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.UserPreferenceChangedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 Microsoft.Win32.UserPreferenceChangingEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Permissions.StorePermission 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Permissions.StorePermissionAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Permissions.StorePermissionFlags 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Permissions.TypeDescriptorPermissionFlags 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Permissions.TypeDescriptorPermission 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Permissions.TypeDescriptorPermissionAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.AsnEncodedData 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.AsnEncodedDataCollection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.AsnEncodedDataEnumerator 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.Oid 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.OidCollection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.OidEnumerator 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X500DistinguishedName 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509NameType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509IncludeOption 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.PublicKey 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509Certificate2 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509FindType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509ChainStatusFlags 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509ChainStatus 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509ChainElement 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509ChainElementCollection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509ChainElementEnumerator 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509RevocationMode 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509RevocationFlag 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509VerificationFlags 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509ChainPolicy 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509Extension 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509KeyUsageFlags 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509KeyUsageExtension 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509ExtensionCollection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.StoreLocation 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.OpenFlags 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.StoreName 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Cryptography.X509Certificates.X509Store 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.ExtendedProtection.ChannelBindingKind 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.ExtendedProtection.PolicyEnforcement 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.ExtendedProtection.ProtectionScenario 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.ExtendedProtection.Configuration.ExtendedProtectionPolicyElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.ExtendedProtection.Configuration.ServiceNameElementCollection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.ExtendedProtection.Configuration.ServiceNameElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.UriHostNameType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.UriPartial 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.UriKind 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.UriComponents 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.UriFormat 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.UriIdnScope 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.GenericUriParserOptions 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.AuthenticationManager 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.AuthenticationSchemes 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.AuthenticationSchemeSelector 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Cookie 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Dns 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DnsPermissionAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DnsPermission 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.FtpStatusCode 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.WebRequestMethods 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.FtpWebRequest 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.FtpWebResponse 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.GlobalProxySelection 生成存根: 类型已过时。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpListenerBasicIdentity 生成存根: 类型不受支持，因为存在内部限制。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpListener 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpListenerContext 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpListenerPrefixCollection 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpListenerRequest 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpListenerResponse 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpRequestHeader 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpResponseHeader 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpStatusCode 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DecompressionMethods 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.ICertificatePolicy 生成存根: method System.Boolean System.Net.ICertificatePolicy.CheckValidationResult(System.Net.ServicePoint srvPoint, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Net.WebRequest request, System.Int32 certificateProblem) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.Security.Cryptography.X509Certificates.X509Certificate 在目标框架版本中不可用。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.HttpContinueDelegate 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkAccess 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.BindIPEndPoint 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.ServicePoint 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.SecurityProtocolType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.ServicePointManager 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.SocketPermissionAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.SocketPermission 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.EndpointPermission 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.TransportType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.OpenReadCompletedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.OpenReadCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.OpenWriteCompletedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.OpenWriteCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DownloadStringCompletedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DownloadStringCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DownloadDataCompletedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DownloadDataCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadStringCompletedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadStringCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadDataCompletedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadDataCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadFileCompletedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadFileCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadValuesCompletedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadValuesCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DownloadProgressChangedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.DownloadProgressChangedEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadProgressChangedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.UploadProgressChangedEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.WebExceptionStatus 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.WebPermissionAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.WebPermission 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.WebUtility 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.NetworkStream 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Cache.RequestCacheLevel 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Cache.HttpRequestCacheLevel 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Cache.HttpCacheAgeControl 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.AuthenticatedStream 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.AuthenticationLevel 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.ProtectionLevel 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.NegotiateStream 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.SslProtocols 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.ExchangeAlgorithmType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.CipherAlgorithmType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Security.Authentication.HashAlgorithmType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.SslPolicyErrors 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.EncryptionPolicy 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.RemoteCertificateValidationCallback 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.LocalCertificateSelectionCallback 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Security.SslStream 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.AddressFamily 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.IOControlCode 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.IPProtectionLevel 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.ProtocolFamily 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.ProtocolType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SelectMode 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketInformationOptions 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketInformation 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketAsyncOperation 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketError 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketFlags 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketOptionLevel 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketOptionName 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketShutdown 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.SocketType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.TransmitFileOptions 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Sockets.IPPacketInformation 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.DuplicateAddressDetectionState 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkInterfaceType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.IPAddressInformationCollection 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.IPStatus 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkAvailabilityEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkChange 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkAddressChangedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkAvailabilityChangedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkInformationAccess 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkInformationPermissionAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkInformationPermission 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetworkInterfaceComponent 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.NetBiosNodeType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.OperationalStatus 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.PingCompletedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.PingCompletedEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.PingReply 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.PrefixOrigin 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.SuffixOrigin 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.NetworkInformation.TcpState 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.AuthenticationModuleElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.AuthenticationModuleElementCollection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.AuthenticationModulesSection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.BypassElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.BypassElementCollection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.ConnectionManagementElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.ConnectionManagementElementCollection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.ConnectionManagementSection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.DefaultProxySection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.HttpWebRequestElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.HttpListenerElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.HttpCachePolicyElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.FtpCachePolicyElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.Ipv6Element 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.MailSettingsSectionGroup 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.ModuleElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.NetSectionGroup 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.PerformanceCountersElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.ProxyElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.RequestCachingSection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SchemeSettingElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SchemeSettingElementCollection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.SettingsSection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.ServicePointManagerElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.SmtpSection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.SmtpNetworkElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.SmtpSpecifiedPickupDirectoryElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.SocketElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.WebProxyScriptElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.WebRequestModuleElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.WebRequestModuleElementCollection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Configuration.WebRequestModulesSection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.UriSection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.IriParsingElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.IdnElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.AlternateViewCollection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.AttachmentCollection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mime.DispositionTypeNames 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.LinkedResourceCollection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.DeliveryNotificationOptions 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mime.MediaTypeNames 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.MailPriority 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.SendCompletedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.SmtpDeliveryMethod 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.SmtpAccess 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.SmtpPermissionAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.SmtpPermission 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mail.SmtpStatusCode 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Net.Mime.TransferEncoding 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsLoadedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsSavingEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingChangingEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.ConfigurationSettings 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.ConfigXmlDocument 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.ApplicationScopedSettingAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.DefaultSettingValueAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.NoSettingsVersionUpgradeAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsDescriptionAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsGroupDescriptionAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsGroupNameAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsManageabilityAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsProviderAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsSerializeAsAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SpecialSettingAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.UserScopedSettingAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsManageability 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SpecialSetting 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingsSerializeAs 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.ApplicationSettingsGroup 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.UserSettingsGroup 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.ClientSettingsSection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingElementCollection 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Configuration.SettingValueElement 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.NotifyFilters 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.ErrorEventArgs 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.ErrorEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.FileSystemEventArgs 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.FileSystemEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.FileSystemWatcher 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.InternalBufferOverflowException 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.IODescriptionAttribute 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.RenamedEventArgs 生成存根: 类型不受支持，因为它不可用或已在版本之间更改。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.RenamedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.WaitForChangedResult 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.WatcherChangeTypes 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Timers.ElapsedEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Timers.ElapsedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Web.AspNetHostingPermissionLevel 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Web.AspNetHostingPermissionAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Web.AspNetHostingPermission 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.CounterSample 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.CounterSampleCalculator 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.DataReceivedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.DataReceivedEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.DiagnosticsConfigurationHandler 生成存根: 类型已过时。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.EntryWrittenEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.EventLogEntry 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.EventLogEntryCollection 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.EventLogEntryType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.EventLogPermission 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.EventLogPermissionAccess 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.EventLogPermissionEntryCollection 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.EventLogTraceListener 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.FileVersionInfo 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.OverflowAction 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounter 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounterCategory 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounterCategoryType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounterInstanceLifetime 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounterManager 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounterPermission 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounterPermissionAccess 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounterPermissionEntryCollection 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.PerformanceCounterType 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.ProcessModule 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.ProcessPriorityClass 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.ProcessStartInfo 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.ProcessThread 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.ProcessWindowStyle 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.ThreadPriorityLevel 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.ThreadState 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.ThreadWaitReason 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.Handshake 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.Parity 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialError 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialErrorReceivedEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialErrorReceivedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialPinChange 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialPinChangedEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialPinChangedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialData 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialDataReceivedEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.SerialDataReceivedEventHandler 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.IO.Ports.StopBits 生成存根: 类型是一个值类型。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Concurrent.SystemThreadingCollections_BlockingCollectionDebugView`1 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Concurrent.SystemThreadingCollection_IProducerConsumerCollectionDebugView`1 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Generic.System_CollectionDebugView`1 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Generic.System_QueueDebugView`1 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Generic.System_StackDebugView`1 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Generic.System_DictionaryDebugView`2 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Generic.System_DictionaryKeyCollectionDebugView`2 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Generic.System_DictionaryValueCollectionDebugView`2 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Collections.Generic.SortedSetDebugView`1 生成存根: 类型对 exported or assembly(System.4.0.0.0.Fakes) 不可见。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.Diagnostics.AlphabeticalEnumConverter 生成存根: 类型对 exported or assembly(System.4.0.0.0.Fakes) 不可见。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 FXAssembly 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 ThisAssembly 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 AssemblyRef 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.SRDescriptionAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 System.SRCategoryAttribute 生成存根: 类型已密封。
+E:\Repos\Demos\DotNet\FakesDemo\FakesDemoUnitTest\Fakes\System.fakes : warning : 无法为 <PrivateImplementationDetails>{C519B58E-6CD8-4B65-BE32-92633E98E2FE} 生成存根: 类型不受支持，因为存在内部限制。

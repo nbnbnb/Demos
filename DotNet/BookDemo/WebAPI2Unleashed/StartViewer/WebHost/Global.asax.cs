@@ -13,6 +13,9 @@ namespace WebHost
 
         protected void Application_Start(object sender, EventArgs e)
         {
+            // 只需要引用 WebApi 这个项目
+            // 站点就具有了作为 WebAPI 服务宿主的能力
+
             GlobalConfiguration.Configuration.Routes.MapHttpRoute(
                     name: "DefaultApp",
                     routeTemplate: "api/{controller}/{id}",

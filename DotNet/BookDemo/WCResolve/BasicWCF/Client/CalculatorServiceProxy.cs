@@ -11,7 +11,7 @@ namespace Client
     public class CalculatorServiceProxy : ServiceProxyBase<ICalculator>, ICalculator
     {
         public CalculatorServiceProxy()
-            : base("httpPoint") { }
+            : base("pipePoint") { }
 
         public double Add(double x, double y)
         {

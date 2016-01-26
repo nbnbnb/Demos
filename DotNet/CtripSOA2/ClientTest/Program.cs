@@ -1,5 +1,4 @@
-﻿using Car.OAT.Client;
-using ConsoleHelloWorldClient.Client;
+﻿using ConsoleHelloWorldClient.Client;
 using CServiceStack.Common.Types;
 using CTI.Email.CommonService.Entity;
 using Freeway.Tracing;
@@ -20,6 +19,7 @@ using System.Reflection;
 using System.Linq.Expressions;
 using System.Text.RegularExpressions;
 
+using Car.OpenAPI.OrderService.Domain.Contract;
 
 namespace ClientTest
 {
@@ -27,25 +27,29 @@ namespace ClientTest
     {
         static void Main(string[] args)
         {
-            CarSettlementAPITest.Test_FAT();
+            GGGG();
             //CarSettlementAPITest.Test_Local();
             //CarSettlementAPITest.Test_Car_SettlementService_Local();
             //CarSettlementServiceTest.Test_Car_SettlementService_FAT();
             //CarSettlementServiceTest.Test_Car_SettlementService_Local();
             //Test_SettlementOpenAPI_SOAClient();
 
-            string gg = "";
-
-            if (gg.Equals("", StringComparison.OrdinalIgnoreCase))
-            {
-
-            }
-
-
             Console.ReadKey(false);
         }
 
         #region Test
+
+
+        private static void GGGG()
+        {
+            string retToken = "eyJTaWduIjoiNEM2MEU2MUQyREU3OThGNUQ1ODZEQzEwOEY4NzFCODMiLCJNZXJjaGFudElEIjoyMDAwMzAsIlRyYW5zYWN0aW9uSUQiOiI1MTE1MTIwNzE2MDAwMDU3NjAyIiwiT3JkZXJJRCI6IjE1OTYwNjA4MTciLCJCaWxsTm8iOjM5NzgzOTIyOSwiRXh0ZXJuYWxObyI6IiIsIlBheW1lbnRSZXF1ZXN0SUQiOjMyMTg2NTQ2MiwiU3RhdHVzIjoiMSIsIlN0YXR1c0Rlc2NyaXB0aW9uIjoi5o%252bQ5Lqk5oiQ5Yqf77yM5pyq5omj5qy%252bIiwiUGF5bWVudERldGFpbCI6W3siUGF5Q2F0YWxvZyI6IkNyZWRpdENhcmQiLCJQYXlXYXkiOiJDQ19CT0MiLCJUcmFuTm8iOiIyODAxMjkwMDgiLCJBbW91bnQiOiIxLjAwIiwiRXh0SW5mbyI6IntcIkFkZHJlc3NcIjpcIlwifSJ9XX0%253d";
+            string deToken = Ctrip.PaymentBase.OnlinePayClient.Common.UrlHelper.Decode(retToken);
+            deToken = Ctrip.PaymentBase.OnlinePayClient.Common.UrlHelper.Decode(deToken);
+
+            var res = System.Convert.FromBase64String(deToken);
+
+        }
+
         private static void Test_SettlementOpenAPI_SOAClient()
         {
             var webHost = "http://ws.settlement.ttd.fat6.qa.nt.ctripcorp.com/ticket-settlement-openapi/api";

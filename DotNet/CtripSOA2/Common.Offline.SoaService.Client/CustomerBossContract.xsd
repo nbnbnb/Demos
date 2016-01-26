@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="VacationFlightContract"
+    targetNamespace="http://tempuri.org/VacationFlightContract.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/VacationFlightContract.xsd"
+    xmlns:mstns="http://tempuri.org/VacationFlightContract.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:common="http://soa.ctrip.com/common/types/v1"
+>
+  <xs:import namespace="http://soa.ctrip.com/common/types/v1" schemaLocation="CTripSOACommonTypes_V1.0.0.xsd" id="SOACommonTypes" />
+
+  <xs:element name="CustomerBossCheckRequest" type="CustomerBossCheckRequestType" />
+  <xs:element name="CustomerBossCheckResponse" type="CustomerBossCheckResponseType" />
+
+  
+  <xs:complexType name="CustomerBossCheckRequestType">
+    <xs:sequence>
+      <xs:element name="Header" type="RequestHeader" minOccurs="1" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>请求头设置</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="UID" type="xs:string" minOccurs="1" maxOccurs="100">
+        <xs:annotation>
+          <xs:documentation>待查客户ID</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="RequestHeader">
+    <xs:sequence>
+      <xs:element name="QueryChannel" type="QueryChannelEnum" minOccurs="1" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>渠道</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="SubQueryChannel" type="SubQueryChannel" minOccurs="1" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>子渠道</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Version" type="xs:int">
+        <xs:annotation>
+          <xs:documentation>版本号(默认1开始)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="RequestId" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>请求ID(必须唯一，建议使用GUID)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="SubQueryChannel">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Online">
+        <xs:annotation>
+          <xs:documentation>Online站点</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Offline">
+        <xs:annotation>
+          <xs:documentation>Offline站点</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="EnglishSite">
+        <xs:annotation>
+          <xs:documentation>英文网站</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Hybrid">
+        <xs:annotation>
+          <xs:documentation>Hybrid站点</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="H5">
+        <xs:annotation>
+          <xs:documentation>H5站点</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="QueryChannelEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Activity" >
+        <xs:annotation>
+          <xs:documentation>Activity(活动)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Affiliates" >
+        <xs:annotation>
+          <xs:documentation>分销</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="AirBus">
+        <xs:annotation>
+          <xs:documentation>机场巴士</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="BI" >
+        <xs:annotation>
+          <xs:documentation>商业智能</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Car">
+        <xs:annotation>
+          <xs:documentation>租车</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Corp">
+        <xs:annotation>
+          <xs:documentation>商旅</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Cruise">
+        <xs:annotation>
+          <xs:documentation>游轮</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="CustomerService">
+        <xs:annotation>
+          <xs:documentation>客服中心</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Destination">
+        <xs:annotation>
+          <xs:documentation>目的地</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Diy">
+        <xs:annotation>
+          <xs:documentation>机酒</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Fun">
+        <xs:annotation>
+          <xs:documentation>主题游</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="FRT">
+        <xs:annotation>
+          <xs:documentation>机加酒</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Finance">
+        <xs:annotation>
+          <xs:documentation>金融</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Flight">
+        <xs:annotation>
+          <xs:documentation>机票</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Framework">
+        <xs:annotation>
+          <xs:documentation>框架</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="GS">
+        <xs:annotation>
+          <xs:documentation>攻略</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Group">
+        <xs:annotation>
+          <xs:documentation>团购</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="HHTravel">
+        <xs:annotation>
+          <xs:documentation>鸿鹄</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Hotel">
+        <xs:annotation>
+          <xs:documentation>酒店</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Platform">
+        <xs:annotation>
+          <xs:documentation>公共服务</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="TravelShopping">
+        <xs:annotation>
+          <xs:documentation>购物SBU</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="CustomerBossCheckResponseType">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="100" name="CheckResult" type="CheckResult">
+        <xs:annotation>
+          <xs:documentation>是否成功</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ResponseStatus" type="common:ResponseStatusType">
+        <xs:annotation>
+          <xs:documentation>接口返回的状态说明</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CheckResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="UID" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>客户ID</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="1" name="Status" type="xs:boolean">
+        <xs:annotation>
+          <xs:documentation>结果:true是boss客户,false不是</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  
+
+  <!-- 申请积分服务 begin -->
+  <xs:element name="IntegralApplyRequest" type="IntegralApplyRequestType" />
+  <xs:complexType name="IntegralApplyRequestType">
+    <xs:sequence >
+      <xs:element name="auditid" type="xs:int" >
+        <xs:annotation >
+          <xs:documentation>外部ID</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="uid" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>用户ID</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="eid" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>操作人员EID</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="pointsAmount" type="xs:int">
+        <xs:annotation>
+          <xs:documentation>调整积分</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="basePointAmount" type="xs:int">
+        <xs:annotation>
+          <xs:documentation>调整基础积分</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="pointFactor" type="xs:float">
+        <xs:annotation>
+          <xs:documentation>积分系数</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="pointReason" type="xs:string">
+        <xs:annotation>
+          <xs:documentation>积分调整原因</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="policyType" type="xs:int">
+        <xs:annotation>
+          <xs:documentation>积分策略：1，加积分，2，减积分，3，从最早开始减积分</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="IntegralApplyResponse" type="IntegralApplyResponseType" />
+  <xs:complexType name="IntegralApplyResponseType">
+    <xs:sequence>
+      <xs:element name="resultType" type="xs:int">
+        <xs:annotation>
+          <xs:documentation>处理状态：0，系统接受失败，1:系统接受成功</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ResponseStatus" type="common:ResponseStatusType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!-- 申请积分服务 end -->
+  
+</xs:schema>

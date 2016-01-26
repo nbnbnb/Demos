@@ -30,7 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CServiceStack.Mega">
+    <Reference Include="CServiceStack.Mega, Version=2.0.7.11, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\lib\CServiceStack.Mega.dll</HintPath>
     </Reference>
     <Reference Include="Framework.Logging.V2.API">

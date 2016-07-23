@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CoreWebApp
+namespace WebApplication1
 {
     public class Startup
     {
@@ -17,20 +17,13 @@ namespace CoreWebApp
         {
         }
 
-
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app)
-        {
-            app.UseDefaultFiles();
-            app.UseStaticFiles();
-
-            /*
-            app.Run(async (context) =>
+        {app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World! " + DateTime.Now.Ticks);
+                await context.Response.WriteAsync("Hello World!");
             });
-            */
+            
         }
-
     }
 }

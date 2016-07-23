@@ -7,10 +7,12 @@ namespace DataAccess
 {
     public class BreakAwayContext : DbContext
     {
-        public BreakAwayContext()
+        public BreakAwayContext() : base("BreakAwayConsoleApp")
         {
+            /*
             ((IObjectContextAdapter)this).ObjectContext
                 .ObjectMaterialized += ObjectContext_ObjectMaterialized;
+                **/
         }
 
         void ObjectContext_ObjectMaterialized(object sender, ObjectMaterializedEventArgs e)

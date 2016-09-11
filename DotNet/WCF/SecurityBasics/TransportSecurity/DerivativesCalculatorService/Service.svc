@@ -1,0 +1,2 @@
+<%@ServiceHost Service="DerivativesCalculator.DerivativesCalculatorServiceType" %>
+<%@Assembly Name="DerivativesCalculatorService" %>

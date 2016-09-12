@@ -113,7 +113,7 @@ namespace WindowApp.Zebra.PrintHelper
         public static bool SendBytesToPrinter(string printerName, byte[] bytes)
         {
             bool bSuccess = false;
-            IntPtr pUnmanagedBytes = new IntPtr(0);
+            IntPtr pUnmanagedBytes = new IntPtr(0);           
             int nLength = bytes.Length;
             // Allocate some unmanaged memory for those bytes.
             pUnmanagedBytes = Marshal.AllocCoTaskMem(nLength);
@@ -135,7 +135,7 @@ namespace WindowApp.Zebra.PrintHelper
         /// <returns>是否打印成功</returns>
         public static bool SendStringToPrinter(string printerName, string command)
         {
-            return SendBytesToPrinter(printerName, System.Text.Encoding.Default.GetBytes(command));
+            return SendBytesToPrinter(printerName, System.Text.Encoding.UTF8.GetBytes(command));
         }
     }
 }

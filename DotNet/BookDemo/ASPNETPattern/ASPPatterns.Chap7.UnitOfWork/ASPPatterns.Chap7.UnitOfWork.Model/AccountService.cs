@@ -6,6 +6,7 @@ using System.Text;
 
 namespace ASPPatterns.Chap7.UnitOfWork.Model
 {
+
     public class AccountService
     {
         private IAccountRepository _accountRepository;

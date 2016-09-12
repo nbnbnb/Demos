@@ -5,6 +5,7 @@ using System.Text;
 
 namespace ASPPatterns.Chap7.UnitOfWork.Model
 {
+
     public interface IAccountRepository
     {
         void Save(Account account);

@@ -43,9 +43,13 @@ namespace LinqToTerraServerProvider
             Expression = expression;
         }
 
+        // IQueryable.Provider
         public IQueryProvider Provider { get; private set; }
+
+        // IQueryable.Expression
         public Expression Expression { get; private set; }
 
+        // IQueryable.ElementType
         public Type ElementType
         {
             get
@@ -54,11 +58,13 @@ namespace LinqToTerraServerProvider
             }
         }
 
+        // IEnumerable<TData>.GetEnumerator()
         public IEnumerator<TData> GetEnumerator()
         {
             return (Provider.Execute<IEnumerable<TData>>(Expression)).GetEnumerator();
         }
 
+        // IEnumerable.GetEnumerator()
         IEnumerator IEnumerable.GetEnumerator()
         {
             return (Provider.Execute<IEnumerable>(Expression)).GetEnumerator();

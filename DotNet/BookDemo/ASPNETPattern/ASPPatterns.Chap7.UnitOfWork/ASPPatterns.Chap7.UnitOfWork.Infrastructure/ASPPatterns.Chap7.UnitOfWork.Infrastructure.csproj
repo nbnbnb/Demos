@@ -41,7 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IAggregateRoot.cs" />
+    <Compile Include="IAggregateRepository.cs" />
+    <Compile Include="IAggregateUnitOfWork.cs" />
     <Compile Include="IUnitOfWork.cs" />
+    <Compile Include="IAggregateUnitOfWorkRepository.cs" />
     <Compile Include="IUnitOfWorkRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitOfWork.cs" />

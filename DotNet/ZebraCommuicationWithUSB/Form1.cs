@@ -36,7 +36,7 @@ namespace WindowApp.Zebra
 
             if (!string.IsNullOrEmpty(printName))
             {
-                DrvPrinterHelper.SendStringToPrinter("Hello World!", printName);
+                DrvPrinterHelper.SendStringToPrinter(printName, "Hello World!");
             }
         }
     }

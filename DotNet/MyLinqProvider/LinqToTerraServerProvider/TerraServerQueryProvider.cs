@@ -14,7 +14,8 @@ namespace LinqToTerraServerProvider
             Type elementType = TypeSystem.GetElementType(expression.Type);
             try
             {
-                return (IQueryable)Activator.CreateInstance(typeof(QueryableTerraServerData<>).MakeGenericType(elementType),
+                return (IQueryable)Activator.CreateInstance(
+                    typeof(QueryableTerraServerData<>).MakeGenericType(elementType),
                     new object[] { this, expression });
             }
             catch (System.Reflection.TargetInvocationException ex)
